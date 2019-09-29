@@ -1,6 +1,9 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
+// import mdb
+import { MDBBootstrapModule } from 'angular-bootstrap-md';
+
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { FooterComponent } from './components/footer/footer.component';
@@ -26,6 +29,7 @@ import { MapasComponent } from './pages/mapas/mapas.component';
   ],
   imports: [
     BrowserModule,
+    MDBBootstrapModule.forRoot(),
     AppRoutingModule
   ],
   providers: [],
