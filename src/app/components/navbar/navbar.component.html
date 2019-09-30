@@ -1,1 +1,23 @@
-<p>navbar works!</p>
+<header class="h-100">
+    <mdb-navbar SideClass="navbar navbar-expand-lg navbar-dark blue accent-3" [containerInside]="true">
+        <mdb-navbar-brand>
+            <a class="logo navbar-brand" href="#"><strong>Planeacion</strong></a>
+        </mdb-navbar-brand>
+        <links>
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item waves-light" mdbWavesEffect routerLinkActive="active">
+                    <a class="nav-link" [routerLink]="['home']">Home</a>
+                </li>
+                <!-- Dropdown -->
+                <li class="nav-item dropdown" dropdown routerLinkActive="active">
+                    <a mdbDropdownToggle mdbWavesEffect type="button" class="nav-link dropdown-toggle waves-light" mdbWavesEffect>
+                    Proyecto<span class="caret"></span></a>
+                    <div *dropdownMenu class="dropdown-menu dropdown dropdown-primary" role="menu" routerLinkActive="active">
+                        <a class="dropdown-item waves-light" mdbWavesEffect [routerLink]="['Ante_proyecto']">Ante-Proyecto</a>
+                        <a class="dropdown-item disabled" [routerLink]="['Proyecto']">Proyecto</a>
+                    </div>
+                </li>
+            </ul>
+        </links>
+    </mdb-navbar>
+</header>
