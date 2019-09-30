@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { LocaljsonService } from '../../services/localjson.service';
+
 
 @Component({
   selector: 'app-ante-proyecto',
@@ -7,7 +9,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AnteProyectoComponent implements OnInit {
 
-  constructor() { }
+  constructor(
+    local: LocaljsonService
+  ) { }
 
   ngOnInit() {
   }
