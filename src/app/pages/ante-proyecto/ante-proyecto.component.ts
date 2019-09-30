@@ -10,10 +10,16 @@ import { LocaljsonService } from '../../services/localjson.service';
 export class AnteProyectoComponent implements OnInit {
 
   constructor(
-    local: LocaljsonService
-  ) { }
+    private local: LocaljsonService
+  ) {
+   }
 
   ngOnInit() {
+    this.local.get('ante_proy').subscribe( dato => {
+      console.log(dato);
+    }, (error_service) => {
+      console.log(error_service);
+    });
   }
 
 }
