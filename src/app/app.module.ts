@@ -1,5 +1,10 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import {HttpClientModule} from '@angular/common/http';
+
+// import mdb
+import { MDBBootstrapModule } from 'angular-bootstrap-md';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -11,6 +16,8 @@ import { AnteProyectoComponent } from './pages/ante-proyecto/ante-proyecto.compo
 import { ClasesComponent } from './pages/clases/clases.component';
 import { ClaseComponent } from './components/clase/clase.component';
 import { MapasComponent } from './pages/mapas/mapas.component';
+import { AnimationHomeComponent } from './components/animation-home/animation-home.component';
+import { CarruselComponent } from './components/carrusel/carrusel.component';
 
 @NgModule({
   declarations: [
@@ -22,10 +29,16 @@ import { MapasComponent } from './pages/mapas/mapas.component';
     AnteProyectoComponent,
     ClasesComponent,
     ClaseComponent,
-    MapasComponent
+    MapasComponent,
+    AnimationHomeComponent,
+    CarruselComponent
   ],
   imports: [
     BrowserModule,
+    MDBBootstrapModule.forRoot(),
+    FormsModule,
+    ReactiveFormsModule ,
+    HttpClientModule,
     AppRoutingModule
   ],
   providers: [],
