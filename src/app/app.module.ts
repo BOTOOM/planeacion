@@ -14,6 +14,7 @@ import { AnteProyectoComponent } from './pages/ante-proyecto/ante-proyecto.compo
 import { ClasesComponent } from './pages/clases/clases.component';
 import { ClaseComponent } from './components/clase/clase.component';
 import { MapasComponent } from './pages/mapas/mapas.component';
+import { AnimationHomeComponent } from './components/animation-home/animation-home.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { MapasComponent } from './pages/mapas/mapas.component';
     AnteProyectoComponent,
     ClasesComponent,
     ClaseComponent,
-    MapasComponent
+    MapasComponent,
+    AnimationHomeComponent
   ],
   imports: [
     BrowserModule,
