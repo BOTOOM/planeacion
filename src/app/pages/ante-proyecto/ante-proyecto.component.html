@@ -1,7 +1,4 @@
-<mdb-carousel [animation]="'slide'">
-    <mdb-carousel-item>
 
-        <mdb-card class="d-block w-100">
             <div>
                 <div class="row align-top">
                     <div class="align-bottom col-3">
@@ -24,7 +21,31 @@
                 </div>
                 <div class="divider dropdown-divider blue accent-3"></div>
                 <div class="row align-middle">
-                    cosas varias
+                    
+                    <mdb-carousel [animation]="'slide'" data-interval="30000">
+                        <!-- presenta a : -->
+                        <mdb-carousel-item>
+                    
+                            <div class="col-12">
+                                <div class="row centrado">
+                                    <button class="centrado" mdbBtn  gradient="blue" rounded="true" mdbWavesEffect>
+                                    Presentando a :
+                                    </button>
+                                </div>
+                                <div class="row centrado text-center">
+                                    <img src="assets/img/logo-belatrix.png" class="rounded" alt="..." width="50%">
+                                </div>
+                                <div class="row centrado">
+                                <p class="text-center deep-orange-text h4">
+                                    "Achieving success in the digital world is hard. We make it easier!"
+                                </p>
+                                </div>
+                            </div>
+
+                        </mdb-carousel-item>
+                    
+                    </mdb-carousel>
+
                 </div>
                 <div class="divider dropdown-divider blue accent-3"></div>
                 <div class="row align-bottom">
@@ -54,8 +75,3 @@
                     </div>
                 </div>
             </div>
-        </mdb-card>
-
-    </mdb-carousel-item>
-
-</mdb-carousel>
