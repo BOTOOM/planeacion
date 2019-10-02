@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { LocaljsonService } from '../../services/localjson.service';
 
 @Component({
   selector: 'app-carrusel',
@@ -7,9 +8,20 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CarruselComponent implements OnInit {
 
-  constructor() { }
+  DatosAnte: any;
+
+  constructor(
+    private local: LocaljsonService
+  ) { }
 
   ngOnInit() {
+    this.local.get('ante_proy').subscribe( dato => {
+      // console.log(dato);
+      this.DatosAnte = dato;
+      console.info(this.DatosAnte)
+    }, (error_service) => {
+      console.log(error_service);
+    });
   }
 
 }
