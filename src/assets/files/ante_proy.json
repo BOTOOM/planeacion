@@ -105,5 +105,16 @@
                 ]
             }
         ]
+    },
+    {
+        "seccion": "Cronograma de Actividades",
+        "parrafos": [],
+        "referencias": [],
+        "img": [
+            "assets/img/crono1.png",
+            "assets/img/crono2.png",
+            "assets/img/crono3.png"
+        ],
+        "fases": []
     }
 ]
