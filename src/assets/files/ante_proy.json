@@ -14,18 +14,96 @@
           "[3] DRUCKER, Peter. La sociedad poscapitalista. Barcelona: Apóstrofe , 1993, p. 111.",
           "[4] Citado por Biasca, R.E.Resultados: de las ideas a los hechos concretos. La acción, Granica, 2004, p. 137."
         ],
-        "img": []
+        "img": [],
+        "fases": []
     },
     {
-        "seccion": "Justificacion 2",
+        "seccion": "Objetivo General",
         "parrafos": [ 
-        "parrafo1",
-        "parrafo2"
+        "Desarrollar un plan estratégico de información para la Empresa Belatrix la integración del objetivo de la organización con los respectivos elementos que le conforman, formular estrategias para incrementar las oportunidades en un escenario competitivo a nivel global."
         ],
-        "referencias": [
-          "ref 1",
-          "ref 2"
+        "referencias": [],
+        "img": [],
+        "fases": []
+    },
+    {
+        "seccion": "Objetivos Específicos",
+        "parrafos": [ 
+        "- Identificar y estudiar el objetivo principal de Belatrix, tanto su misión, visión, con el fin de plantear estrategias para alcanzar dicho objetivo.",
+        "- Identificar y examinar los y procesos de la organización.",
+        "- Descubrir y detallar los subsistemas de información de la empresa."
         ],
-        "img": []
+        "referencias": [],
+        "img": [],
+        "fases": []
+    },
+    {
+        "seccion": "Tecnicas",
+        "parrafos": [ 
+        "- Listas de chequeo.",
+        "- Cuestionarios.",
+        "- Encuestas para futuras tabulaciones con respuestas de si o no.",
+        "- Entrevistas.",
+        "- Trabajo de campo, revisión, verificación y análisis."
+        ],
+        "referencias": [],
+        "img": [],
+        "fases": []
+    },
+    {
+        "seccion": "Metodologia",
+        "parrafos": [],
+        "referencias": [],
+        "img": [],
+        "fases": [
+            {
+                "nombre_fase": "Fase I: Presentación y compromiso del equipo",
+                "subitems": [
+                    "Tomar la decisión de obtener un plan de TI/SI.",
+                    "Formación del grupo base.",
+                    "Identificación de áreas de análisis para describir el sistema de información existente.",
+                    "Formación del equipo de trabajo definitivo y presentación del proyecto.",
+                    "Aprobación del anteproyecto."
+                ]
+            },
+            {
+                "nombre_fase": "Fase II: Descripción de la situación actual",
+                "subitems": [
+                    "Identificación de las principales funciones y procesos de negocio por área.",
+                    "Descripción de los sistemas, procesos, estructuras y datos existentes.",
+                    "Análisis de los sistemas existentes desde un punto de vista técnico y de negocio.",
+                    "Elaboración del informe acerca de los sistemas existentes."
+                ]
+            },
+            {
+                "nombre_fase": "Fase III: Análisis interno y externo",
+                "subitems": [
+                    "Elaboración de entrevistas y encuestas.",
+                    "Identificación de oportunidades y amenazas externas (POAM).",
+                    "Identificación de fortalezas y debilidades internas de la empresa (PCI)."
+                ]
+            },
+            {
+                "nombre_fase": "Fase IV: Elaboración del Plan de TI/SI",
+                "subitems": [
+                    "Preparación del equipo de trabajo para el análisis de necesidades y surgimiento de nuevas áreas.",
+                    "Búsqueda de necesidades de SI por áreas, funciones y procesos de negocio. Caracterización de la importancia y la urgencia.",
+                    "Descripción sistemática de las necesidades, procesos y estructuras de datos.",
+                    "Integración de los centros de atención emergentes.",
+                    "Validación de la estructura del SI emergente.",
+                    "Informe acerca de la estructura del SI necesario en el futuro.",
+                    "Elaboración de propuestas alternativas para el plan de TI/SI y evaluación de los recursos necesarios.",
+                    "Elaboración y aprobación del definitivo plan de TI/SI."
+                ]
+            },
+            {
+                "nombre_fase": "Fase V: Programación de actividades",
+                "subitems": [
+                    "Descripción detallada del Plan de TI/SI acordado. Calendario concreto para el primer año.",
+                    "Inclusión de los proyectos en el presupuesto del periodo siguiente.",
+                    "Plan de evaluación y revisión."
+                ]
+            }
+        ]
     }
 ]

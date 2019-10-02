@@ -76,7 +76,7 @@
                 {{ seccion['seccion'] }}
                 </button>
             </div>
-            <div *ngFor="let parrafo of seccion['parrafos']" class="row centrado">
+            <div *ngFor="let parrafo of seccion['parrafos']" class="row">
                 <p class="text-justify">
                     {{ parrafo }}
                 </p>
@@ -86,8 +86,18 @@
                     {{ referencia }}
                 </p>
             </div>
+            <div class="row">
+                <ul class="list-unstyled">
+                    <li *ngFor="let fase of seccion['fases']"> {{ fase['nombre_fase'] }}
+                        <ul>
+                            <li *ngFor="let subitem of fase['subitems']">{{ subitem }}</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
         </div>
     </div>
+    <!-- fin contenido  -->
   </div>
   <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
