@@ -1,16 +1,109 @@
 [
     {
         "seccion": "Justificacion",
-        "parrafos": "El poder más reconocido de Aquaman es la capacidad telepática para comunicarse con la vida marina, la cual puede convocar a grandes distancias.",
-        "referencias": "assets/img/aquaman.png",
-        "tematica": "1941-11-01",
-        "casa":"DC"
+        "parrafos": [ 
+        "En el desarrollo de sistemas de información el marco de operación y competencia de unidades productivas de las empresas, la economía; ha cambiado generando nuevas situaciones y expectativas. Actualmente el centro de la mayoría de las organizaciones es enfocado al uso, desarrollo y/o implantación de tecnología de información y comunicaciones , las cuales son indispensables para cumplir los objetivos de las mismas organizaciones. No obstante en muchos casos ocurre que las herramientas y los procesos de negocio no actúan en perfecta sincronía, por el contrario se generan contradicciones entre la plancton de los sistemas de información y los planes estratégicos de la empresa, dejando de lado el papel de los sistemas de información como un ``conjunto de personas, maquinaria (hardware, equipamiento e instalaciones) y procedimientos que, integrados, hacen posible a los individuos trabajar con inputs (datos, conocimiento) y demandas (decisiones, problemas) que aparecen en el trabajo cotidiano'' [1]",
+        "``Los sistemas no aportan ninguna ventaja a las empresas si previamente estas no han hecho un riguroso análisis de su situación y negocio actuales y de dónde quieren llegar'' [2].",
+        "Los directivos de una empresa buscan la mayor parte del tiempo que la empresa se enfoque en el proceso de la información; su búsqueda, entrada, procesamiento, salida y el amplio uso que se le puede dar a esta. La información se encuentra en la base de las actividades de administración en las organizaciones, ``Hacia 1970 la información empezó a transformar las organizaciones; pronto aprendimos que la introducción en éstas de la información como elemento estructural y orgánico significa la eliminación de muchos, si no de la mayoría, de los niveles de dirección. En la organización tradicional, la mayoría de personas llamadas directivos no dirigían realmente; lo que hacían era pasar órdenes hacia abajo e información hacia arriba. Si la información está disponible, sobran.''[3]. Por lo tanto resultas mas que conveniente el diseñar sistemas que puedan producirla y gestionarla, con el fin de asegurar la fiabilidad, exactitud, disponibilidad y legibilidad de esta al momento de realizar una toma de decisiones.",
+        "``La medición es el primer paso para el control y la mejora. Si algo no se puede medir, no se puede entender. Si no se entiende, no se puede controlar. Si no se puede controlar, no se puede mejorar.''[4].",
+        "En Belatrix ya cuentan con procesos y estructuras los cuales tendrían un gran beneficio al implementar un sistema de información como anteriormente se ha descrito lo cual concede a la formalización de una estructura organizacional, proporcionando obtención, análisis con el fin de poder asignar  tareas a los sectores que corresponden con el fin de alcanzar los objetivos de la empresa y permitir su continua mejora."
+        ],
+        "referencias": [
+          "[1] Citado por LÓPEZ YEPES, J.El desarrollo de los sistemas de información y documentación, Cuadernos EUBD, 1991, p. 25-26.",
+          "[2] Fuster, H. Hormigo, I. Joana, J. Rodriguez, J.Fundamentos de sistemas de información. (2011)., F Editorial: UOC. Pág. 3.",
+          "[3] DRUCKER, Peter. La sociedad poscapitalista. Barcelona: Apóstrofe , 1993, p. 111.",
+          "[4] Citado por Biasca, R.E.Resultados: de las ideas a los hechos concretos. La acción, Granica, 2004, p. 137."
+        ],
+        "img": [],
+        "fases": []
     },
     {
-        "seccion": "Justificacion",
-        "parrafos": "El poder más reconocido de Aquaman es la capacidad telepática para comunicarse con la vida marina, la cual puede convocar a grandes distancias.",
-        "referencias": "assets/img/aquaman.png",
-        "tematica": "1941-11-01",
-        "casa":"DC"
+        "seccion": "Objetivo General",
+        "parrafos": [ 
+        "Desarrollar un plan estratégico de información para la Empresa Belatrix la integración del objetivo de la organización con los respectivos elementos que le conforman, formular estrategias para incrementar las oportunidades en un escenario competitivo a nivel global."
+        ],
+        "referencias": [],
+        "img": [],
+        "fases": []
+    },
+    {
+        "seccion": "Objetivos Específicos",
+        "parrafos": [ 
+        "- Identificar y estudiar el objetivo principal de Belatrix, tanto su misión, visión, con el fin de plantear estrategias para alcanzar dicho objetivo.",
+        "- Identificar y examinar los y procesos de la organización.",
+        "- Descubrir y detallar los subsistemas de información de la empresa."
+        ],
+        "referencias": [],
+        "img": [],
+        "fases": []
+    },
+    {
+        "seccion": "Tecnicas",
+        "parrafos": [ 
+        "- Listas de chequeo.",
+        "- Cuestionarios.",
+        "- Encuestas para futuras tabulaciones con respuestas de si o no.",
+        "- Entrevistas.",
+        "- Trabajo de campo, revisión, verificación y análisis."
+        ],
+        "referencias": [],
+        "img": [],
+        "fases": []
+    },
+    {
+        "seccion": "Metodologia",
+        "parrafos": [],
+        "referencias": [],
+        "img": [],
+        "fases": [
+            {
+                "nombre_fase": "Fase I: Presentación y compromiso del equipo",
+                "subitems": [
+                    "Tomar la decisión de obtener un plan de TI/SI.",
+                    "Formación del grupo base.",
+                    "Identificación de áreas de análisis para describir el sistema de información existente.",
+                    "Formación del equipo de trabajo definitivo y presentación del proyecto.",
+                    "Aprobación del anteproyecto."
+                ]
+            },
+            {
+                "nombre_fase": "Fase II: Descripción de la situación actual",
+                "subitems": [
+                    "Identificación de las principales funciones y procesos de negocio por área.",
+                    "Descripción de los sistemas, procesos, estructuras y datos existentes.",
+                    "Análisis de los sistemas existentes desde un punto de vista técnico y de negocio.",
+                    "Elaboración del informe acerca de los sistemas existentes."
+                ]
+            },
+            {
+                "nombre_fase": "Fase III: Análisis interno y externo",
+                "subitems": [
+                    "Elaboración de entrevistas y encuestas.",
+                    "Identificación de oportunidades y amenazas externas (POAM).",
+                    "Identificación de fortalezas y debilidades internas de la empresa (PCI)."
+                ]
+            },
+            {
+                "nombre_fase": "Fase IV: Elaboración del Plan de TI/SI",
+                "subitems": [
+                    "Preparación del equipo de trabajo para el análisis de necesidades y surgimiento de nuevas áreas.",
+                    "Búsqueda de necesidades de SI por áreas, funciones y procesos de negocio. Caracterización de la importancia y la urgencia.",
+                    "Descripción sistemática de las necesidades, procesos y estructuras de datos.",
+                    "Integración de los centros de atención emergentes.",
+                    "Validación de la estructura del SI emergente.",
+                    "Informe acerca de la estructura del SI necesario en el futuro.",
+                    "Elaboración de propuestas alternativas para el plan de TI/SI y evaluación de los recursos necesarios.",
+                    "Elaboración y aprobación del definitivo plan de TI/SI."
+                ]
+            },
+            {
+                "nombre_fase": "Fase V: Programación de actividades",
+                "subitems": [
+                    "Descripción detallada del Plan de TI/SI acordado. Calendario concreto para el primer año.",
+                    "Inclusión de los proyectos en el presupuesto del periodo siguiente.",
+                    "Plan de evaluación y revisión."
+                ]
+            }
+        ]
     }
-    ]
+]
