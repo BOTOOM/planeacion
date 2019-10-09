@@ -14,6 +14,6 @@ export class LocaljsonService {
    }
 
    get(endpoint: string) {
-    return this.http.get(`${urlfile}${endpoint}.json`);
+    return this.http.get(`${urlfile}${endpoint}.json`)
    }
 }
