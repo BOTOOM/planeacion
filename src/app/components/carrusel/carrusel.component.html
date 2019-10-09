@@ -19,11 +19,11 @@
         </div>
     </div>
             <!-- presentasion ante  -->
-    <div class="carousel-item">
+    <!-- <div class="carousel-item">
         <div class="col-12">
             <div class="row centrado">
                 <p class="col text-center h6">
-                    PLAN ESTRATÉGICO CORPORATIVO Y DE SISTEMAS DE INFORMACIÓN COLEGIO CRISTIANO INTEGRAL
+                    PLAN DE GESTIÓN ESTRATÉGICO CORPORATIVO Y DE SISTEMAS DE INFORMACIÓN PARA BELATRIX SOFTWARE
                 </p>
             </div>
             <div class="row centrado">
@@ -42,13 +42,13 @@
                 </p>
             </div>
         </div>
-    </div>
+    </div> -->
             <!-- info empresa -->
-    <div class="carousel-item">
+    <!-- <div class="carousel-item">
         <div class="col-12">
             <div class="row derecha">
                 <button class="derecha " mdbBtn  gradient="blue" rounded="true" mdbWavesEffect>
-                Informacion Empresarial:
+                Información Empresarial:
                 </button>
             </div>
             <div class="row centrado">
@@ -67,7 +67,26 @@
                 </a>
             </div>
         </div>
+    </div> -->
+
+
+            <!-- agenda -->
+    <div class="carousel-item">
+        <div class="col-12">
+            <div class="row derecha">
+                <button class="derecha " mdbBtn  gradient="blue" rounded="true" mdbWavesEffect>
+                Agenda:
+                </button>
+            </div>
+            <div *ngFor="let seccion of DatosAnte" class="row centrado">
+                <p class="text-center h5">
+                    {{ seccion['seccion'] }}
+                </p>
+            </div>
+        </div>
     </div>
+
+
             <!-- contenido anteprotecto -->
     <div class="carousel-item" *ngFor="let seccion of DatosAnte">
         <div class="col-12">
