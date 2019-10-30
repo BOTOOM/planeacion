@@ -18,6 +18,7 @@ import { ClaseComponent } from './components/clase/clase.component';
 import { MapasComponent } from './pages/mapas/mapas.component';
 import { AnimationHomeComponent } from './components/animation-home/animation-home.component';
 import { CarruselComponent } from './components/carrusel/carrusel.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -39,7 +40,8 @@ import { CarruselComponent } from './components/carrusel/carrusel.component';
     FormsModule,
     ReactiveFormsModule ,
     HttpClientModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
