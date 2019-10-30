@@ -2,6 +2,10 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import {HttpClientModule} from '@angular/common/http';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
+// imports de componentes como material
+import { MaterialModule } from './temas/material/material.module';
 
 // import mdb
 import { MDBBootstrapModule } from 'angular-bootstrap-md';
@@ -39,7 +43,9 @@ import { CarruselComponent } from './components/carrusel/carrusel.component';
     FormsModule,
     ReactiveFormsModule ,
     HttpClientModule,
-    AppRoutingModule
+    AppRoutingModule,
+    MaterialModule.forRoot(),
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
