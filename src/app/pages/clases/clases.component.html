@@ -1,34 +1,37 @@
 
 <mat-accordion>
-    <mat-expansion-panel>
-      <mat-expansion-panel-header>
-        <mat-panel-title>
-          Personal data
-        </mat-panel-title>
-        <mat-panel-description>
-          Type your name and age
-        </mat-panel-description>
-      </mat-expansion-panel-header>
-  
-      <mat-form-field>
-        <input matInput placeholder="First name">
-      </mat-form-field>
-  
-      <mat-form-field>
-        <input matInput placeholder="Age">
-      </mat-form-field>
-    </mat-expansion-panel>
-    <mat-expansion-panel (opened)="panelOpenState = true"
+    <mat-expansion-panel *ngFor="let clase of DatosClases; let i=index" 
+                         (opened)="panelOpenState = true"
                          (closed)="panelOpenState = false">
       <mat-expansion-panel-header>
         <mat-panel-title>
-          Self aware panel
+          Clase N° {{ i + 1 }}
         </mat-panel-title>
         <mat-panel-description>
-          Currently I am {{panelOpenState ? 'open' : 'closed'}}
+          Fecha: {{ clase['fecha'] | date }}
         </mat-panel-description>
       </mat-expansion-panel-header>
-      <p>I'm visible because I am open</p>
+      <div class="table-responsive">
+        <table class="table table-bordered">
+          <thead>
+            <tr>
+              <th scope="col">Lo que aprendi</th>
+              <th scope="col">Consultas</th>
+              <th scope="col">Videos</th>
+              <th scope="col">Libros</th>
+
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td [rowSpan]=Tam_row> {{clase['que_aprendi']}} </td>
+              <td> <a href="http://localhost:4200" target="_blank" rel="noopener noreferrer">{{ clase['consultas'][0]['nombre'] }}  </a> </td>
+              <td> <a href="http://localhost:4200" target="_blank" rel="noopener noreferrer">{{ clase['videos'][0]['nombre'] }}  </a> </td>
+              <td> <a href="http://localhost:4200" target="_blank" rel="noopener noreferrer">{{ clase['libros'][0]['nombre'] }}  </a> </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
     </mat-expansion-panel>
   </mat-accordion>
   

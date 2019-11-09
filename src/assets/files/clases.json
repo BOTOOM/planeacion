@@ -1,0 +1,46 @@
+[
+    {
+        "fecha": "2019-08-08",
+        "que_aprendi": "cosas rechidas",
+        "consultas": [
+            {
+                "nombre": "consulta 1",
+                "url": ""
+            }
+        ],
+        "videos": [
+            {
+                "nombre": "video 1",
+                "url": ""
+            }
+        ],
+        "libros": [
+            {
+                "nombre": "libro 1",
+                "url": ""
+            }
+        ]
+    },
+    {
+        "fecha": "2019-08-10",
+        "que_aprendi": "cosas rechidas v2",
+        "consultas": [
+            {
+                "nombre": "consulta 2",
+                "url": ""
+            }
+        ],
+        "videos": [
+            {
+                "nombre": "video 2",
+                "url": ""
+            }
+        ],
+        "libros": [
+            {
+                "nombre": "video 4",
+                "url": ""
+            }
+        ]
+    }
+]
