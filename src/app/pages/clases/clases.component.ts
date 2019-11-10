@@ -19,7 +19,7 @@ export class ClasesComponent implements OnInit {
     this.local.get('clases').subscribe( dato => {
       // console.log(dato);
       this.DatosClases = dato;
-      this.Tam_row = this.DatosClases.length;
+      this.Tam_row = this.DatosClases[0]['consultas'].length;
       console.info(this.Tam_row)
       console.info(this.DatosClases)
     }, (error_service) => {

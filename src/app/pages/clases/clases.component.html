@@ -23,11 +23,11 @@
             </tr>
           </thead>
           <tbody>
-            <tr>
-              <td [rowSpan]=Tam_row> {{clase['que_aprendi']}} </td>
-              <td> <a href="http://localhost:4200" target="_blank" rel="noopener noreferrer">{{ clase['consultas'][0]['nombre'] }}  </a> </td>
-              <td> <a href="http://localhost:4200" target="_blank" rel="noopener noreferrer">{{ clase['videos'][0]['nombre'] }}  </a> </td>
-              <td> <a href="http://localhost:4200" target="_blank" rel="noopener noreferrer">{{ clase['libros'][0]['nombre'] }}  </a> </td>
+            <tr *ngFor="let item of clase['consultas']; let j=index">
+              <td *ngIf="j==0" [rowSpan]=clase.consultas.length > {{clase['que_aprendi']}} </td>
+              <td > <a href="http://localhost:4200" target="_blank" rel="noopener noreferrer">{{ clase['consultas'][j]['nombre'] }}  </a> </td>
+              <td > <a href="http://localhost:4200" target="_blank" rel="noopener noreferrer">{{ clase['videos'][j]['nombre'] }}  </a> </td>
+              <td > <a href="http://localhost:4200" target="_blank" rel="noopener noreferrer">{{ clase['libros'][j]['nombre'] }}  </a> </td>
             </tr>
           </tbody>
         </table>
