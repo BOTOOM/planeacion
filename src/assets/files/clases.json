@@ -343,22 +343,46 @@
   },
   {
     "fecha": "2020-02-21",
-    "que_aprendi": "cosas rechidas v2",
+    "que_aprendi": "Principalmente aprendi sobre la felicidad. Aquellos momentos felices pueden superar a quellos momentos que nos abruman.\n\n\nHe de destacar una frase de la profesora : << De mis constantes retos han dependido mos constantes exitos y mis constantes fracasos>>",
     "consultas": [
       {
-        "nombre": "consulta 2",
+        "nombre": "Personajes de Mafalda",
+        "url": "https://www.speakinglatino.com/personajes-de-mafalda/"
+      },
+      {
+        "nombre": "",
+        "url": ""
+      },
+      {
+        "nombre": "",
         "url": ""
       }
     ],
     "videos": [
       {
-        "nombre": "video 2",
-        "url": ""
+        "nombre": "Los anticipadores de desgracia - Pilar Sordo ",
+        "url": "https://www.youtube.com/watch?v=z4j-GTDO7aY"
+      },
+      {
+        "nombre": "Que es ser un estoico ",
+        "url": "https://www.youtube.com/watch?v=GS0WESyAm5Y"
+      },
+      {
+        "nombre": "por que se frotan las patitas",
+        "url": "https://www.youtube.com/watch?v=Sf78ETi5GFM"
       }
     ],
     "libros": [
       {
-        "nombre": "video 4",
+        "nombre": "El hombre en busca de sentido",
+        "url": "https://www.google.com/search?client=firefox-b-d&channel=crow2&ei=WUFTXuXZI8_n_QaD4oHYAw&q=el+hombre+en+busca+de+sentido+pdf&oq=el+hombre+en+busca+de+sentido+pdf&gs_l=psy-ab.3...28528.31165..31371...2.2..0.174.951.0j6......0....1..gws-wiz.......0i71j0j0i22i30j0i22i30i19.pn9ptPYPnl8&ved=0ahUKEwil6qT_nennAhXPc98KHQNxADsQ4dUDCAo&uact=5"
+      },
+      {
+        "nombre": "",
+        "url": ""
+      },
+      {
+        "nombre": "",
         "url": ""
       }
     ]
