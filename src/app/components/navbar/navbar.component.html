@@ -14,8 +14,11 @@
                     Proyecto<span class="caret"></span></a>
                     <div *dropdownMenu class="dropdown-menu dropdown dropdown-primary" role="menu" routerLinkActive="active">
                         <a class="dropdown-item waves-light" mdbWavesEffect [routerLink]="['Ante_proyecto']">Ante-Proyecto</a>
-                        <a class="dropdown-item disabled" [routerLink]="['Proyecto']">Proyecto</a>
+                        <a class="dropdown-item " [routerLink]="['Proyecto']">Proyecto</a>
                     </div>
+                </li>
+                <li class="nav-item waves-light" mdbWavesEffect routerLinkActive="active">
+                    <a class="nav-link" [routerLink]="['clases']">Clases</a>
                 </li>
             </ul>
         </links>

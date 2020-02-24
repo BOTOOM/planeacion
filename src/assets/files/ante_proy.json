@@ -1,121 +1,121 @@
 [
-    {
-        "seccion": "Justificacion",
-        "parrafos": [ 
-        "``Los sistemas de Información y e-Business - se han entretejido mucho; cualquier innovación en un sector estimula varias mejoras y avances en otro. Además, es obligatorio un enfoque holístico del diseño de estos.''[1]. Actualmente el centro de la mayoría de las organizaciones es enfocado al uso, desarrollo y/o implantación de tecnología de información y comunicaciones , las cuales son indispensables para cumplir los objetivos de las mismas organizaciones. No obstante en muchos casos ocurre que las herramientas y los procesos de negocio no actúan en perfecta sincronía, por el contrario se generan contradicciones entre la planeación de los sistemas de información y los planes estratégicos de la empresa; ``Los sistemas no aportan ninguna ventaja a las empresas si previamente estas no han hecho un riguroso análisis de su situación y negocio actuales y de dónde quieren llegar'' [2]; dejando de lado el papel de los sistemas de información como un `` un conjunto coherente de principios, métodos y modelos que se utilizan en el diseño y la realización de la estructura organizativa, los procesos de negocio, y la infraestructura de una empresa'' [3]",
-        "Los directivos de una empresa buscan la mayor parte del tiempo que la empresa se enfoque en el proceso de la información; su búsqueda, entrada, procesamiento, salida y el amplio uso que se le puede dar a esta. La información se encuentra en la base de las actividades de administración en las organizaciones, ``Hacia 1970 la información empezó a transformar las organizaciones; pronto aprendimos que la introducción en éstas de la información como elemento estructural y orgánico significa la eliminación de muchos, si no de la mayoría, de los niveles de dirección. En la organización tradicional, la mayoría de personas llamadas directivos no dirigían realmente; lo que hacían era pasar órdenes hacia abajo e información hacia arriba. Si la información está disponible, sobran.''[4]. Por lo tanto resultas mas que conveniente el diseñar sistemas que puedan producirla y gestionarla, con el fin de asegurar la fiabilidad, exactitud, disponibilidad y legibilidad de esta al momento de realizar una toma de decisiones con pensamiento holístico en un mundo globalizado.",
-        "Se quiere implementar en Belatrix un sistema de información como anteriormente se ha descrito lo cual concede a la formalización de una estructura organizacional, proporcionando obtención, análisis con el fin de poder asignar  tareas a los sectores que corresponden con el fin de alcanzar los objetivos de la empresa y permitir su continua mejora, ya que ``La medición es el primer paso para el control y la mejora. Si algo no se puede medir, no se puede entender. Si no se entiende, no se puede controlar. Si no se puede controlar, no se puede mejorar.''[5]."
-        ],
-        "referencias": [
-          "[1] Traunmüller R. (2017) Erratum to: Information Systems. In: Traunmüller R. (eds) Information Systems. IFIP WCC TC8 2002. IFIP — The International Federation for Information Processing, vol 95. Springer, Boston, MA",
-          "[2] Fuster, H. Hormigo, I. Joana, J. Rodriguez, J.Fundamentos de sistemas de información. (2011)., F Editorial: UOC. Pág. 3.",
-          "[3] Rechau T., Silva N., da Silva M.M., Sousa P. (2017) A Tool for Managing the Evolution of Enterprise Architecture Meta-model and Models. In: Themistocleous M., Morabito V. (eds) Information Systems. EMCIS 2017. Lecture Notes in Business Information Processing, vol 299. Springer, Cham",
-          "[4] DRUCKER, Peter. La sociedad poscapitalista. Barcelona: Apóstrofe , 1993, p. 111.",
-          "[5] Citado por Biasca, R.E.Resultados: de las ideas a los hechos concretos. La acción, Granica, 2004, p. 137."
-        ],
-        "img": [],
-        "fases": []
-    },
-    {
-        "seccion": "Objetivo General",
-        "parrafos": [ 
-        "Desarrollar un plan estratégico corporativo y plan de sistemas de información con enfoque sistémico para la Empresa Belatrix la integración del objetivo de la organización con los respectivos elementos que le conforman, formular estrategias para incrementar las oportunidades en un mundo globalizado."
-        ],
-        "referencias": [],
-        "img": [],
-        "fases": []
-    },
-    {
-        "seccion": "Objetivos Específicos",
-        "parrafos": [ 
-        "- dentificar y estudiar el objetivo principal de Belatrix, tanto su misión, visión, con el fin de plantear estrategias para alcanzar dicho objetivo, de ser posible proponer una nueva misión y visión.",
-        "- Identificar y examinar las funciones y procesos de negocio de la organización.",
-        "- Identificar y caracterizar los flujos de información que se generan en la empresa, y su respectiva capacidad informática para soportar dichos flujos.",
-        "- Descubrir y detallar los subsistemas de información de la empresa; teniendo en cuenta los datos con los que se tiene interacción y los procesos que allí se conforman.",
-        "- Documentar de manera sistemática cada necesidad de información de las funciones y procesos de negocio."
-        ],
-        "referencias": [],
-        "img": [],
-        "fases": []
-    },
-    {
-        "seccion": "Tecnicas",
-        "parrafos": [ 
-        "- Listas de chequeo.",
-        "- Cuestionarios.",
-        "- Encuestas para futuras tabulaciones con respuestas de si o no.",
-        "- Entrevistas.",
-        "- Trabajo de campo, revisión, verificación y análisis."
-        ],
-        "referencias": [],
-        "img": [],
-        "fases": []
-    },
-    {
-        "seccion": "Metodologia",
-        "parrafos": [],
-        "referencias": [],
-        "img": [],
-        "fases": [
-            {
-                "nombre_fase": "Fase I: Presentación y compromiso del equipo",
-                "subitems": [
-                    "Tomar la decisión de obtener un plan de TI/SI.",
-                    "Formación del grupo base.",
-                    "Identificación de áreas de análisis para describir el sistema de información existente.",
-                    "Formación del equipo de trabajo definitivo y presentación del proyecto.",
-                    "Aprobación del anteproyecto."
-                ]
-            },
-            {
-                "nombre_fase": "Fase II: Descripción de la situación actual",
-                "subitems": [
-                    "Identificación de las principales funciones y procesos de negocio por área.",
-                    "Descripción de los sistemas, procesos, estructuras y datos existentes.",
-                    "Análisis de los sistemas existentes desde un punto de vista técnico y de negocio.",
-                    "Elaboración del informe acerca de los sistemas existentes."
-                ]
-            },
-            {
-                "nombre_fase": "Fase III: Análisis interno y externo",
-                "subitems": [
-                    "Elaboración de entrevistas y encuestas.",
-                    "Identificación de oportunidades y amenazas externas (POAM).",
-                    "Identificación de fortalezas y debilidades internas de la empresa (PCI)."
-                ]
-            },
-            {
-                "nombre_fase": "Fase IV: Elaboración del Plan de TI/SI",
-                "subitems": [
-                    "Preparación del equipo de trabajo para el análisis de necesidades y surgimiento de nuevas áreas.",
-                    "Búsqueda de necesidades de SI por áreas, funciones y procesos de negocio. Caracterización de la importancia y la urgencia.",
-                    "Descripción sistemática de las necesidades, procesos y estructuras de datos.",
-                    "Integración de los centros de atención emergentes.",
-                    "Validación de la estructura del SI emergente.",
-                    "Informe acerca de la estructura del SI necesario en el futuro.",
-                    "Elaboración de propuestas alternativas para el plan de TI/SI y evaluación de los recursos necesarios.",
-                    "Elaboración y aprobación del definitivo plan de TI/SI."
-                ]
-            },
-            {
-                "nombre_fase": "Fase V: Programación de actividades",
-                "subitems": [
-                    "Descripción detallada del Plan de TI/SI acordado. Calendario concreto para el primer año.",
-                    "Inclusión de los proyectos en el presupuesto del periodo siguiente.",
-                    "Plan de evaluación y revisión."
-                ]
-            }
+  {
+    "seccion": "Justificacion",
+    "parrafos": [
+      "``Los sistemas de Información y e-Business se han entretejido mucho; cualquier innovación en un sector estimula varias mejoras y avances en otro. Además, es obligatorio un enfoque holístico del diseño de estos.''[1]. Actualmente el centro de la mayoría de las organizaciones es enfocado al uso, desarrollo y/o implantación de tecnología de información y comunicaciones , las cuales son indispensables para cumplir los objetivos de las mismas organizaciones. No obstante en muchos casos ocurre que las herramientas y los procesos de negocio no actúan en perfecta sincronía, por el contrario se generan contradicciones entre la planeación de los sistemas de información y los planes estratégicos de la empresa; ``Los sistemas no aportan ninguna ventaja a las empresas si previamente estas no han hecho un riguroso análisis de su situación y negocio actuales y de dónde quieren llegar'' [2]; dejando de lado el papel de los sistemas de información como un `` un conjunto coherente de principios, métodos y modelos que se utilizan en el diseño y la realización de la estructura organizativa, los procesos de negocio, y la infraestructura de una empresa'' [3]",
+      "Los directivos de una empresa buscan la mayor parte del tiempo que la empresa se enfoque en el proceso de la información; su búsqueda, entrada, procesamiento, salida y el amplio uso que se le puede dar a esta. La información se encuentra en la base de las actividades de administración en las organizaciones, ``Hacia 1970 la información empezó a transformar las organizaciones; pronto aprendimos que la introducción en éstas de la información como elemento estructural y orgánico significa la eliminación de muchos, si no de la mayoría, de los niveles de dirección. En la organización tradicional, la mayoría de personas llamadas directivos no dirigían realmente; lo que hacían era pasar órdenes hacia abajo e información hacia arriba. Si la información está disponible, sobran.''[4]. Por lo tanto resultas mas que conveniente el diseñar sistemas que puedan producirla y gestionarla, con el fin de asegurar la fiabilidad, exactitud, disponibilidad y legibilidad de esta al momento de realizar una toma de decisiones con pensamiento holístico en un mundo globalizado.",
+      "Se quiere implementar en Belatrix un sistema de información como anteriormente se ha descrito lo cual concede a la formalización de una estructura organizacional, proporcionando obtención, análisis con el fin de poder asignar  tareas a los sectores que corresponden con el fin de alcanzar los objetivos de la empresa y permitir su continua mejora, ya que ``La medición es el primer paso para el control y la mejora. Si algo no se puede medir, no se puede entender. Si no se entiende, no se puede controlar. Si no se puede controlar, no se puede mejorar.''[5]."
+    ],
+    "referencias": [
+      "[1] Traunmüller R. (2017) Erratum to: Information Systems. In: Traunmüller R. (eds) Information Systems. IFIP WCC TC8 2002. IFIP — The International Federation for Information Processing, vol 95. Springer, Boston, MA",
+      "[2] Fuster, H. Hormigo, I. Joana, J. Rodriguez, J.Fundamentos de sistemas de información. (2011)., F Editorial: UOC. Pág. 3.",
+      "[3] Rechau T., Silva N., da Silva M.M., Sousa P. (2017) A Tool for Managing the Evolution of Enterprise Architecture Meta-model and Models. In: Themistocleous M., Morabito V. (eds) Information Systems. EMCIS 2017. Lecture Notes in Business Information Processing, vol 299. Springer, Cham",
+      "[4] DRUCKER, Peter. La sociedad poscapitalista. Barcelona: Apóstrofe , 1993, p. 111.",
+      "[5] Citado por Biasca, R.E.Resultados: de las ideas a los hechos concretos. La acción, Granica, 2004, p. 137."
+    ],
+    "img": [],
+    "fases": []
+  },
+  {
+    "seccion": "Objetivo General",
+    "parrafos": [
+      "Desarrollar un plan estratégico corporativo y plan de sistemas de información con enfoque sistémico para la Empresa Belatrix, la integración del objetivo de la organización con los respectivos elementos que le conforman, formular estrategias para incrementar las oportunidades en un mundo globalizado."
+    ],
+    "referencias": [],
+    "img": [],
+    "fases": []
+  },
+  {
+    "seccion": "Objetivos Específicos",
+    "parrafos": [
+      "- Identificar y estudiar el objetivo principal de Belatrix, tanto su misión, visión, con el fin de plantear estrategias para alcanzar dicho objetivo, de ser posible proponer una nueva misión y visión.",
+      "- Identificar y examinar las funciones y procesos de negocio de la organización.",
+      "- Identificar y caracterizar los flujos de información que se generan en la empresa, y su respectiva capacidad informática para soportar dichos flujos.",
+      "- Descubrir y detallar los subsistemas de información de la empresa; teniendo en cuenta los datos con los que se tiene interacción y los procesos que allí se conforman.",
+      "- Documentar de manera sistemática cada necesidad de información de las funciones y procesos de negocio."
+    ],
+    "referencias": [],
+    "img": [],
+    "fases": []
+  },
+  {
+    "seccion": "Tecnicas",
+    "parrafos": [
+      "- Listas de chequeo.",
+      "- Cuestionarios.",
+      "- Encuestas para futuras tabulaciones con respuestas de si o no.",
+      "- Entrevistas.",
+      "- Trabajo de campo, revisión, verificación y análisis."
+    ],
+    "referencias": [],
+    "img": [],
+    "fases": []
+  },
+  {
+    "seccion": "Metodologia",
+    "parrafos": [],
+    "referencias": [],
+    "img": [],
+    "fases": [
+      {
+        "nombre_fase": "Fase I: Presentación y compromiso del equipo",
+        "subitems": [
+          "Tomar la decisión de obtener un plan de TI/SI.",
+          "Formación del grupo base.",
+          "Identificación de áreas de análisis para describir el sistema de información existente.",
+          "Formación del equipo de trabajo definitivo y presentación del proyecto.",
+          "Aprobación del anteproyecto."
         ]
-    },
-    {
-        "seccion": "Cronograma de Actividades",
-        "parrafos": [],
-        "referencias": [],
-        "img": [
-            "assets/img/crono1.png",
-            "assets/img/crono2.png",
-            "assets/img/crono3.png"
-        ],
-        "fases": []
-    }
+      },
+      {
+        "nombre_fase": "Fase II: Descripción de la situación actual",
+        "subitems": [
+          "Identificación de las principales funciones y procesos de negocio por área.",
+          "Descripción de los sistemas, procesos, estructuras y datos existentes.",
+          "Análisis de los sistemas existentes desde un punto de vista técnico y de negocio.",
+          "Elaboración del informe acerca de los sistemas existentes."
+        ]
+      },
+      {
+        "nombre_fase": "Fase III: Análisis interno y externo",
+        "subitems": [
+          "Elaboración de entrevistas y encuestas.",
+          "Identificación de oportunidades y amenazas externas (POAM).",
+          "Identificación de fortalezas y debilidades internas de la empresa (PCI)."
+        ]
+      },
+      {
+        "nombre_fase": "Fase IV: Elaboración del Plan de TI/SI",
+        "subitems": [
+          "Preparación del equipo de trabajo para el análisis de necesidades y surgimiento de nuevas áreas.",
+          "Búsqueda de necesidades de SI por áreas, funciones y procesos de negocio. Caracterización de la importancia y la urgencia.",
+          "Descripción sistemática de las necesidades, procesos y estructuras de datos.",
+          "Integración de los centros de atención emergentes.",
+          "Validación de la estructura del SI emergente.",
+          "Informe acerca de la estructura del SI necesario en el futuro.",
+          "Elaboración de propuestas alternativas para el plan de TI/SI y evaluación de los recursos necesarios.",
+          "Elaboración y aprobación del definitivo plan de TI/SI."
+        ]
+      },
+      {
+        "nombre_fase": "Fase V: Programación de actividades",
+        "subitems": [
+          "Descripción detallada del Plan de TI/SI acordado. Calendario concreto para el primer año.",
+          "Inclusión de los proyectos en el presupuesto del periodo siguiente.",
+          "Plan de evaluación y revisión."
+        ]
+      }
+    ]
+  },
+  {
+    "seccion": "Cronograma de Actividades",
+    "parrafos": [],
+    "referencias": [],
+    "img": [
+      "assets/img/crono1.png",
+      "assets/img/crono2.png",
+      "assets/img/crono3.png"
+    ],
+    "fases": []
+  }
 ]
