@@ -188,7 +188,161 @@
     ]
   },
   {
+    "fecha": "2019-10-09",
+    "que_aprendi": "cosas rechidas v2",
+    "consultas": [
+      {
+        "nombre": "consulta 2",
+        "url": ""
+      }
+    ],
+    "videos": [
+      {
+        "nombre": "video 2",
+        "url": ""
+      }
+    ],
+    "libros": [
+      {
+        "nombre": "video 4",
+        "url": ""
+      }
+    ]
+  },
+  {
     "fecha": "2019-10-21",
+    "que_aprendi": "cosas rechidas v2",
+    "consultas": [
+      {
+        "nombre": "consulta 2",
+        "url": ""
+      }
+    ],
+    "videos": [
+      {
+        "nombre": "video 2",
+        "url": ""
+      }
+    ],
+    "libros": [
+      {
+        "nombre": "video 4",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "fecha": "2020-02-10",
+    "que_aprendi": "cosas rechidas v2",
+    "consultas": [
+      {
+        "nombre": "consulta 2",
+        "url": ""
+      }
+    ],
+    "videos": [
+      {
+        "nombre": "video 2",
+        "url": ""
+      }
+    ],
+    "libros": [
+      {
+        "nombre": "video 4",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "fecha": "2020-02-12",
+    "que_aprendi": "cosas rechidas v2",
+    "consultas": [
+      {
+        "nombre": "consulta 2",
+        "url": ""
+      }
+    ],
+    "videos": [
+      {
+        "nombre": "video 2",
+        "url": ""
+      }
+    ],
+    "libros": [
+      {
+        "nombre": "video 4",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "fecha": "2020-02-14",
+    "que_aprendi": "cosas rechidas v2",
+    "consultas": [
+      {
+        "nombre": "consulta 2",
+        "url": ""
+      }
+    ],
+    "videos": [
+      {
+        "nombre": "video 2",
+        "url": ""
+      }
+    ],
+    "libros": [
+      {
+        "nombre": "video 4",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "fecha": "2020-02-17",
+    "que_aprendi": "cosas rechidas v2",
+    "consultas": [
+      {
+        "nombre": "consulta 2",
+        "url": ""
+      }
+    ],
+    "videos": [
+      {
+        "nombre": "video 2",
+        "url": ""
+      }
+    ],
+    "libros": [
+      {
+        "nombre": "video 4",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "fecha": "2020-02-19",
+    "que_aprendi": "cosas rechidas v2",
+    "consultas": [
+      {
+        "nombre": "consulta 2",
+        "url": ""
+      }
+    ],
+    "videos": [
+      {
+        "nombre": "video 2",
+        "url": ""
+      }
+    ],
+    "libros": [
+      {
+        "nombre": "video 4",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "fecha": "2020-02-21",
     "que_aprendi": "cosas rechidas v2",
     "consultas": [
       {
