@@ -1,1 +1,37 @@
-<p>clases works!</p>
+
+<mat-accordion>
+    <mat-expansion-panel *ngFor="let clase of DatosClases; let i=index" 
+                         (opened)="panelOpenState = true"
+                         (closed)="panelOpenState = false">
+      <mat-expansion-panel-header>
+        <mat-panel-title>
+          Clase N° {{ i + 1 }}
+        </mat-panel-title>
+        <mat-panel-description>
+          Fecha: {{ clase['fecha'] | date }}
+        </mat-panel-description>
+      </mat-expansion-panel-header>
+      <div class="table-responsive">
+        <table class="table table-bordered">
+          <thead>
+            <tr>
+              <th scope="col">Lo que aprendi</th>
+              <th scope="col">Consultas</th>
+              <th scope="col">Videos</th>
+              <th scope="col">Libros</th>
+
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let item of clase['consultas']; let j=index">
+              <td *ngIf="j==0" [rowSpan]=clase.consultas.length style="width: 50%;" >  {{clase['que_aprendi']}}  </td>
+              <td style="width: 15%;"> <a href="http://localhost:4200" target="_blank" rel="noopener noreferrer">{{ clase['consultas'][j]['nombre'] }}  </a> </td>
+              <td style="width: 17%;"> <a href="{{ clase['videos'][j]['url']}}" target="_blank" rel="noopener noreferrer">{{ clase['videos'][j]['nombre'] }}  </a> </td>
+              <td style="width: 18%;"> <a href="{{ clase['libros'][j]['url'] }}" target="_blank" rel="noopener noreferrer">{{ clase['libros'][j]['nombre'] }}  </a> </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </mat-expansion-panel>
+  </mat-accordion>
+  
