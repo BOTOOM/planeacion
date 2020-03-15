@@ -180,7 +180,7 @@
     <!-- fin contenido ante proy -->
 
     <!-- inicio contenido proy  -->
-
+<!-- agenda proy  -->
     <div class="carousel-item">
       <div class="col-12">
         <div class="row derecha">
@@ -201,6 +201,40 @@
         </div>
       </div>
     </div>
+    <!-- fin afenda proy  -->
+
+    <div class="carousel-item" *ngFor="let seccion_proy of DatosProy">
+        <div class="col-12">
+          <div class="row derecha">
+            <button
+              class="derecha "
+              mdbBtn
+              gradient="blue"
+              rounded="true"
+              mdbWavesEffect
+            >
+              {{ seccion_proy["seccion"] }}
+            </button>
+          </div>
+          
+          <div class="row" *ngFor="let item of seccion_proy['item']">
+              <span [ngSwitch]="item['tipo']">
+              <p class="text-justify" *ngSwitchCase="'parrafo'">
+              {{ item['contenido'] }}
+              </p>
+              <p *ngSwitchCase="'imagen'">
+              imagen
+              </p>
+              <p *ngSwitchDefault>
+              
+              </p>
+              </span>
+
+          </div>
+          
+        
+        </div>
+      </div>
 
     <!-- fin contenido proy  -->
   </div>

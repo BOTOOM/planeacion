@@ -1,16 +1,24 @@
 [
   {
     "seccion": "Mision",
-    "item": {
-      "tipo": "parrafo",
-      "contenido": ["texto"] 
-    }
+    "item": [
+      {
+        "tipo": "parrafo",
+        "contenido": "texto1"
+      },
+      {
+        "tipo": "parrafo",
+        "contenido": "texto 2"
+      }
+    ]
   },
   {
     "seccion": "Vision",
-    "item": {
-      "tipo": "imagen",
-      "contenido": ["url"] 
-    }
+    "item": [
+      {
+        "tipo": "parrafo",
+        "contenido": "url"
+      }
+    ]
   }
 ]
