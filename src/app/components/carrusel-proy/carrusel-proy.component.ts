@@ -8,6 +8,7 @@ import { LocaljsonService } from '../../services/localjson.service';
 })
 export class CarruselProyComponent implements OnInit {
   DatosAnte: any;
+  DatosProy: any;
 
   constructor(
     private local: LocaljsonService
@@ -17,7 +18,14 @@ export class CarruselProyComponent implements OnInit {
     this.local.get('ante_proy').subscribe( dato => {
       // console.log(dato);
       this.DatosAnte = dato;
-      console.info(this.DatosAnte)
+      console.log(this.DatosAnte);
+    }, (error_service) => {
+      console.log(error_service);
+    });
+    this.local.get('proy').subscribe( dato => {
+      // console.log(dato);
+      this.DatosProy = dato;
+      console.log(this.DatosProy);
     }, (error_service) => {
       console.log(error_service);
     });
