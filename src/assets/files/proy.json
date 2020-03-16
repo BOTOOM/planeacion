@@ -1,10 +1,19 @@
 [
   {
-    "seccion": "Mision Actual",
+    "seccion": "Misión Actual",
     "item": [
       {
         "tipo": "imagen",
         "contenido": "assets/img/proy/mision_actual.png"
+      }
+    ]
+  },
+  {
+    "seccion": "Visión Actual",
+    "item": [
+      {
+        "tipo": "imagen",
+        "contenido": "assets/img/proy/vision_actual.png"
       }
     ]
   }
