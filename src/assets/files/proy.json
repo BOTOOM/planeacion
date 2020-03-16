@@ -1,23 +1,10 @@
 [
   {
-    "seccion": "Mision",
+    "seccion": "Mision Actual",
     "item": [
       {
-        "tipo": "parrafo",
-        "contenido": "texto1"
-      },
-      {
-        "tipo": "parrafo",
-        "contenido": "texto 2"
-      }
-    ]
-  },
-  {
-    "seccion": "Vision",
-    "item": [
-      {
-        "tipo": "parrafo",
-        "contenido": "url"
+        "tipo": "imagen",
+        "contenido": "assets/img/proy/mision_actual.png"
       }
     ]
   }

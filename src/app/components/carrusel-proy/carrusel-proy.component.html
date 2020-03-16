@@ -222,9 +222,14 @@
               <p class="text-justify" *ngSwitchCase="'parrafo'">
               {{ item['contenido'] }}
               </p>
-              <p *ngSwitchCase="'imagen'">
-              imagen
-              </p>
+              <div class="col centrado text-center" *ngSwitchCase="'imagen'">
+                <img
+                src="{{ item['contenido'] }}"
+                class="rounded"
+                alt="..."
+                width="100%"
+              />
+              </div>
               <p *ngSwitchDefault>
               
               </p>
