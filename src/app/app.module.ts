@@ -23,6 +23,7 @@ import { MapasComponent } from './pages/mapas/mapas.component';
 import { AnimationHomeComponent } from './components/animation-home/animation-home.component';
 import { CarruselComponent } from './components/carrusel/carrusel.component';
 import { PruebaComponent } from './components/prueba/prueba.component';
+import { CarruselProyComponent } from './components/carrusel-proy/carrusel-proy.component';
 
 @NgModule({
   declarations: [
@@ -37,7 +38,8 @@ import { PruebaComponent } from './components/prueba/prueba.component';
     MapasComponent,
     AnimationHomeComponent,
     CarruselComponent,
-    PruebaComponent
+    PruebaComponent,
+    CarruselProyComponent
   ],
   imports: [
     BrowserModule,
