@@ -1,0 +1,264 @@
+<div
+  id="carouselExampleControls"
+  class="carousel slide"
+  data-ride="carousel"
+  data-interval="60000"
+>
+  <div class="carousel-inner">
+    <!-- presenta a : -->
+    <div class="carousel-item active">
+      <div class="col-12">
+        <div class="row centrado">
+          <button
+            class="centrado"
+            mdbBtn
+            gradient="blue"
+            rounded="true"
+            mdbWavesEffect
+          >
+            Presentando a :
+          </button>
+        </div>
+        <div class="row centrado text-center">
+          <img
+            src="assets/img/logo-belatrix.png"
+            class="rounded"
+            alt="..."
+            width="50%"
+          />
+        </div>
+        <div class="row centrado">
+          <p class="text-center deep-orange-text h5">
+            "Achieving success in the digital world is hard. We make it easier!"
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- presentasion ante  -->
+    <div class="carousel-item">
+      <div class="col-12">
+        <div class="row centrado">
+          <p class="col text-center h6">
+            PLAN DE GESTIÓN ESTRATÉGICO CORPORATIVO Y DE SISTEMAS DE INFORMACIÓN
+            PARA BELATRIX SOFTWARE
+          </p>
+        </div>
+        <div class="row centrado">
+          <p class="col text-center">
+            Elaborado por: <br />
+            <strong>Edwar Diaz Ruiz</strong>
+          </p>
+        </div>
+        <div class="row centrado">
+          <p class="col text-center">
+            Dirigido por: <br />
+            <strong>Ing. Mabel Rubiela Muñoz Garzón</strong>
+          </p>
+        </div>
+        <div class="row centrado">
+          <p class="col text-center">
+            PLANEACIÓN DE SISTEMAS DE INFORMACIÓN <br />
+            FACULTAD DE INGENIERÍA<br />INGENIERÍA DE SISTEMAS<br />
+            <strong
+              >UNIVERSIDAD DISTRITAL FRANCISCO JOSÉ DE CALDAS BOGOTÁ,
+              COLOMBIA</strong
+            >
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- info empresa -->
+    <div class="carousel-item">
+      <div class="col-12">
+        <div class="row derecha">
+          <button
+            class="derecha "
+            mdbBtn
+            gradient="blue"
+            rounded="true"
+            mdbWavesEffect
+          >
+            Información Empresarial:
+          </button>
+        </div>
+        <div class="row centrado">
+          <p class="text-center deep-orange-text h5">
+            BELATRIX SOFTWARE
+          </p>
+        </div>
+        <div class="row centrado">
+          <p class="text-center blue-text">
+            <strong>Dirección:</strong> Carrera 13A #97-35, 3° piso, Chicó
+            Norte, Bogotá 110221 <br />
+            <strong>Telefono:</strong>+57 (1) 328-9540. <br />
+            <strong>Email:</strong> hello@belatrixsf.com <br />
+          </p>
+        </div>
+        <div class="row centrado">
+          <a
+            type="button"
+            mdbBtn
+            color="light"
+            href="https://www.belatrixsf.com/"
+          >
+            Pagina Web : https://www.belatrixsf.com/
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- agenda -->
+    <div class="carousel-item">
+      <div class="col-12">
+        <div class="row derecha">
+          <button
+            class="derecha "
+            mdbBtn
+            gradient="blue"
+            rounded="true"
+            mdbWavesEffect
+          >
+            Agenda del Anteproyecto:
+          </button>
+        </div>
+        <div *ngFor="let seccion of DatosAnte" class="row centrado">
+          <p class="text-center h5">
+            {{ seccion["seccion"] }}
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- contenido anteprotecto -->
+    <div class="carousel-item" *ngFor="let seccion of DatosAnte">
+      <div class="col-12">
+        <div class="row derecha">
+          <button
+            class="derecha "
+            mdbBtn
+            gradient="blue"
+            rounded="true"
+            mdbWavesEffect
+          >
+            {{ seccion["seccion"] }}
+          </button>
+        </div>
+        <div *ngFor="let parrafo of seccion['parrafos']" class="row">
+          <p class="text-justify">
+            {{ parrafo }}
+          </p>
+        </div>
+        <div class="row centrado">
+          <p
+            *ngFor="let referencia of seccion['referencias']"
+            class="text-justify font-weight-lighter col-12"
+          >
+            {{ referencia }}
+          </p>
+        </div>
+        <div class="row">
+          <ul class="list-unstyled">
+            <li *ngFor="let fase of seccion['fases']">
+              {{ fase["nombre_fase"] }}
+              <ul>
+                <li *ngFor="let subitem of fase['subitems']">{{ subitem }}</li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <div class="row">
+          <img
+            *ngFor="let imagen of seccion['img']"
+            src="{{ imagen }}"
+            class="rounded"
+            alt="..."
+            width="100%"
+          />
+        </div>
+      </div>
+    </div>
+    <!-- fin contenido ante proy -->
+
+    <!-- inicio contenido proy  -->
+<!-- agenda proy  -->
+    <div class="carousel-item">
+      <div class="col-12">
+        <div class="row derecha">
+          <button
+            class="derecha "
+            mdbBtn
+            gradient="blue"
+            rounded="true"
+            mdbWavesEffect
+          >
+            Agenda del Proyecto:
+          </button>
+        </div>
+        <div *ngFor="let seccion_proy of DatosProy" class="row centrado">
+          <p class="text-center h5">
+            {{ seccion_proy["seccion"] }}
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- fin afenda proy  -->
+
+    <div class="carousel-item" *ngFor="let seccion_proy of DatosProy">
+        <div class="col-12">
+          <div class="row derecha">
+            <button
+              class="derecha "
+              mdbBtn
+              gradient="blue"
+              rounded="true"
+              mdbWavesEffect
+            >
+              {{ seccion_proy["seccion"] }}
+            </button>
+          </div>
+          
+          <div class="row" *ngFor="let item of seccion_proy['item']">
+              <span [ngSwitch]="item['tipo']">
+              <p class="text-justify" *ngSwitchCase="'parrafo'">
+              {{ item['contenido'] }}
+              </p>
+              <div class="col centrado text-center" *ngSwitchCase="'imagen'">
+                <img
+                src="{{ item['contenido'] }}"
+                class="rounded"
+                alt="..."
+                width="100%"
+              />
+              </div>
+              <p *ngSwitchDefault>
+              
+              </p>
+              </span>
+
+          </div>
+          
+        
+        </div>
+      </div>
+
+    <!-- fin contenido proy  -->
+  </div>
+  <a
+    class="carousel-control-prev"
+    href="#carouselExampleControls"
+    role="button"
+    data-slide="prev"
+  >
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a
+    class="carousel-control-next"
+    href="#carouselExampleControls"
+    role="button"
+    data-slide="next"
+  >
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
