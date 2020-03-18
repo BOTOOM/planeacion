@@ -9,6 +9,15 @@
     ]
   },
   {
+    "seccion": "Misión Propuesta",
+    "item": [
+      {
+        "tipo": "imagen",
+        "contenido": "assets/img/proy/mision_propuesta.png"
+      }
+    ]
+  },
+  {
     "seccion": "Visión Actual",
     "item": [
       {
