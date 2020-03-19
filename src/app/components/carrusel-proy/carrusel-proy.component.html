@@ -195,8 +195,8 @@
           </button>
         </div>
         <div *ngFor="let seccion_proy of DatosProy" class="row centrado">
-          <p class="text-center h5">
-            {{ seccion_proy["seccion"] }}
+          <p class="text-center h5" *ngIf="seccion_proy['menu']">
+            {{ seccion_proy['seccion'] }}
           </p>
         </div>
       </div>
@@ -213,7 +213,7 @@
               rounded="true"
               mdbWavesEffect
             >
-              {{ seccion_proy["seccion"] }}
+              {{ seccion_proy['seccion'] }}
             </button>
           </div>
           
@@ -229,6 +229,9 @@
                 alt="..."
                 width="100%"
               />
+              </div>
+              <div class="col centrado text-center" *ngSwitchCase="'titulo'">
+              <h3> {{ item['contenido'] }}</h3>
               </div>
               <p *ngSwitchDefault>
               

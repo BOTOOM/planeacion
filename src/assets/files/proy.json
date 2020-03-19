@@ -1,7 +1,12 @@
 [
   {
-    "seccion": "Misión Actual",
+    "seccion": "Misión",
+    "menu": true,
     "item": [
+      {
+        "tipo": "titulo",
+        "contenido": "Misión Actual"
+      },
       {
         "tipo": "imagen",
         "contenido": "assets/img/proy/mision_actual.png"
@@ -9,8 +14,13 @@
     ]
   },
   {
-    "seccion": "Misión Propuesta",
+    "seccion": "Misión",
+    "menu": false,
     "item": [
+      {
+        "tipo": "titulo",
+        "contenido": "Misión Propuesta"
+      },
       {
         "tipo": "imagen",
         "contenido": "assets/img/proy/mision_propuesta.png"
@@ -18,11 +28,30 @@
     ]
   },
   {
-    "seccion": "Visión Actual",
+    "seccion": "Visión",
+    "menu": true,
     "item": [
+      {
+        "tipo": "titulo",
+        "contenido": "Visión Actual"
+      },
       {
         "tipo": "imagen",
         "contenido": "assets/img/proy/vision_actual.png"
+      }
+    ]
+  },
+  {
+    "seccion": "Visión",
+    "menu": false,
+    "item": [
+      {
+        "tipo": "titulo",
+        "contenido": "Visión Propuesta"
+      },
+      {
+        "tipo": "imagen",
+        "contenido": "assets/img/proy/vision_propuesta.png"
       }
     ]
   }
