@@ -54,5 +54,65 @@
         "contenido": "assets/img/proy/vision_propuesta.png"
       }
     ]
+  },
+  {
+    "seccion": "Politicas",
+    "menu": true,
+    "item": [
+      {
+        "tipo": "titulo",
+        "contenido": "políticas de calidad"
+      },
+      {
+        "tipo": "parrafo",
+        "contenido": "Desde febrero de 2013, Belatrix ha sido evaluado en el nivel 3 de madurez de la CMMi, lo que significa que aplicamos un conjunto de directrices para proporcionar servicios superiores a los clientes y usuarios finales. Estas incluyen:"
+      },
+      {
+        "tipo": "lista",
+        "contenido": [
+          "Conocer a nuestros clientes para asegurarnos de que entregamos un producto o servicio que satisfaga sus necesidades.",
+          "Utilizar procedimientos para asegurar que nuestros servicios apliquen estándares internacionales.",
+          "Gestionar actividades para desarrollar las competencias de nuestros empleados."
+        ]
+      },
+      {
+        "tipo": "titulo",
+        "contenido": "políticas de información"
+      },
+      {
+        "tipo": "parrafo",
+        "contenido": "Las políticas de información de Belatrix confieren un valor intrínseco a nuestros clientes, aumentando su credibilidad, reputación y cumpliendo con la obligación de proteger la inversión de sus accionistas:"
+      },
+      {
+        "tipo": "lista",
+        "contenido": [
+          "Belatrix determina que la información, y el equipo utilizado para su procesamiento, son recursos estratégicos, y los considera una parte integral de sus prácticas de negocio.",
+          "Belatrix se compromete a garantizar el cumplimiento de: leyes, normas, reglamentos y obligaciones contractuales. Por lo tanto, Belatrix establece diferentes criterios para la clasificación de la información, basados en los requisitos de integridad, confidencialidad y disponibilidad, y asegura un tratamiento adecuado para alinear estos criterios con las normas internacionales como ISO/IEC 27001 y GDPR. Traducción realizada con la versión gratuita del traductor www.DeepL.com/Translator",
+          "Belatrix también establece criterios basados en el análisis de riesgos de seguridad que incluyen: personas, procesos y tecnología, con una visión proactiva y buscando la mejora continua, alineados con la cultura de la empresa y el Sistema de Gestión de Seguridad de la Información.",
+          "Belatrix determina que la Seguridad de la Información es una responsabilidad de toda la organización."
+        ]
+      },
+      {
+        "tipo": "titulo",
+        "contenido": "políticas de privacidad"
+      },
+      {
+        "tipo": "parrafo",
+        "contenido": "Las políticas de privacidad de Belatrix nos dan la oportunidad de conocer el interés del usuario de nuestro sitio web sin exponer su información por ningún otro motivo que no sea el de desarrollar una relación profesional:"
+      },
+      {
+        "tipo": "lista",
+        "contenido": [
+          "Su consentimiento; Al usar nuestro sitio, usted acepta la política de privacidad de nuestro sitio web.",
+          "¿Qué información recopilamos?; Recopilamos información sobre usted cuando rellena un formulario. Al hacer un pedido o registrarse en nuestro sitio, según corresponda, se le pedirá que introduzca su: nombre, dirección de correo electrónico o número de teléfono. Sin embargo, puede visitar nuestro sitio de forma anónima.",
+          "¿Para qué utilizamos su información?;  Cualquier información que recopilemos de usted puede ser utilizada para mejorar el servicio al cliente (su información nos ayuda a responder más eficazmente a sus solicitudes de servicio al cliente y a sus necesidades de asistencia).",
+          "¿Utilizamos cookies?;  Sí. Las cookies son pequeños archivos que un sitio o su proveedor de servicios transfiere al disco duro de su ordenador a través de su navegador web (si usted lo permite) y que permiten a los sitios o a los sistemas de los proveedores de servicios reconocer su navegador y capturar y recordar cierta información. Utilizamos las cookies para recopilar datos agregados sobre el tráfico del sitio y la interacción del mismo, de modo que podamos ofrecer mejores experiencias y herramientas del sitio en el futuro.",
+          "¿Revelamos alguna información a terceros?; No vendemos, comercializamos ni transferimos de ninguna manera a terceros su información personal identificable. Esto no incluye a terceros de confianza que nos ayudan a operar nuestro sitio web, a llevar a cabo nuestro negocio o a prestarle servicios, siempre y cuando dichas partes acuerden mantener esta información confidencial. También podemos revelar su información cuando creamos que es apropiado para cumplir con la ley, hacer cumplir las políticas de nuestro sitio o proteger nuestros derechos, propiedad o seguridad o los de otros. Sin embargo, la información de los visitantes que no sea de identificación personal puede ser proporcionada a otras partes para marketing, publicidad u otros usos.",
+          "Cumplimiento de la Ley de Protección de la Privacidad en Línea de California; Debido a que valoramos su privacidad, hemos tomado las precauciones necesarias para cumplir con la Ley de Protección de la Privacidad en Línea de California. Por lo tanto, no distribuiremos su información personal a terceros sin su consentimiento.",
+          "Cumplimiento de la Ley de Protección de la Privacidad en Línea de los Niños; Cumplimos con los requisitos de la COPPA (Children's Online Privacy Protection Act), no recogemos ninguna información de nadie menor de 13 años. Nuestro sitio web, productos y servicios están dirigidos a personas que tienen al menos 13 años de edad o más.",
+          "Cambios en nuestra política de privacidad;  Si decidimos cambiar nuestra política de privacidad, publicaremos esos cambios en la pagina oficial."
+        ]
+      }
+    ]
   }
 ]
