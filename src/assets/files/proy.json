@@ -114,5 +114,15 @@
         ]
       }
     ]
+  },
+  {
+    "seccion": "Historia",
+    "menu": false,
+    "item": [
+      {
+        "tipo": "imagen",
+        "contenido": "assets/img/proy/linea.png"
+      }
+    ]
   }
 ]
