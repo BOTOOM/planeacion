@@ -117,11 +117,21 @@
   },
   {
     "seccion": "Historia",
-    "menu": false,
+    "menu": true,
     "item": [
       {
         "tipo": "imagen",
         "contenido": "assets/img/proy/linea.png"
+      }
+    ]
+  },
+  {
+    "seccion": "Historia",
+    "menu": false,
+    "item": [
+      {
+        "tipo": "imagen",
+        "contenido": "assets/img/proy/Tabla_historia.png"
       }
     ]
   }
