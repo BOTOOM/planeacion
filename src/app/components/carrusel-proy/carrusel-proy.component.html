@@ -230,7 +230,7 @@
                 src="{{ item['contenido'] }}"
                 class="rounded"
                 alt="..."
-                width="100%"
+                [style.width] = "item['tamano']"
               />
             </div>
             <div class="col centrado text-center" *ngSwitchCase="'titulo'">
