@@ -180,7 +180,7 @@
     <!-- fin contenido ante proy -->
 
     <!-- inicio contenido proy  -->
-<!-- agenda proy  -->
+    <!-- agenda proy  -->
     <div class="carousel-item">
       <div class="col-12">
         <div class="row derecha">
@@ -195,7 +195,7 @@
           </button>
         </div>
         <div *ngFor="let seccion_proy of DatosProy" class="row centrado">
-          <p class="text-center h5">
+          <p class="text-center h5" *ngIf="seccion_proy['menu']">
             {{ seccion_proy["seccion"] }}
           </p>
         </div>
@@ -204,42 +204,57 @@
     <!-- fin afenda proy  -->
 
     <div class="carousel-item" *ngFor="let seccion_proy of DatosProy">
-        <div class="col-12">
-          <div class="row derecha">
-            <button
-              class="derecha "
-              mdbBtn
-              gradient="blue"
-              rounded="true"
-              mdbWavesEffect
-            >
-              {{ seccion_proy["seccion"] }}
-            </button>
-          </div>
-          
-          <div class="row" *ngFor="let item of seccion_proy['item']">
-              <span [ngSwitch]="item['tipo']">
-              <p class="text-justify" *ngSwitchCase="'parrafo'">
-              {{ item['contenido'] }}
+      <div class="col-12">
+        <div class="row derecha">
+          <button
+            class="derecha "
+            mdbBtn
+            gradient="blue"
+            rounded="true"
+            mdbWavesEffect
+          >
+            {{ seccion_proy["seccion"] }}
+          </button>
+        </div>
+
+        <div class="row" *ngFor="let item of seccion_proy['item']">
+          <span [ngSwitch]="item['tipo']">
+            <div class="col" *ngSwitchCase="'parrafo'">
+              <p class="text-justify">
+                {{ item["contenido"] }}
               </p>
-              <div class="col centrado text-center" *ngSwitchCase="'imagen'">
-                <img
+            </div>
+
+            <div class="col-12 centrado text-center" *ngSwitchCase="'imagen'">
+              <img
                 src="{{ item['contenido'] }}"
                 class="rounded"
                 alt="..."
-                width="100%"
+                [style.width] = "item['tamano']"
               />
+            </div>
+            <div class="col centrado text-center" *ngSwitchCase="'titulo'">
+              <h3>{{ item["contenido"] | uppercase }}</h3>
+            </div>
+            <div class="" *ngSwitchCase="'lista'">
+              <div class="">
+                <ul class="">
+                  <li *ngFor="let subitem of item['contenido']">
+                    {{ subitem }}
+                    <!-- <ul>
+                      <li *ngFor="let subitem of fase['subitems']">
+                        {{ subitem }}
+                      </li>
+                    </ul> -->
+                  </li>
+                </ul>
               </div>
-              <p *ngSwitchDefault>
-              
-              </p>
-              </span>
-
-          </div>
-          
-        
+            </div>
+            <p *ngSwitchDefault></p>
+          </span>
         </div>
       </div>
+    </div>
 
     <!-- fin contenido proy  -->
   </div>
