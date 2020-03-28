@@ -142,6 +142,81 @@
     ]
   },
   {
+    "seccion": "5 subsistemas",
+    "menu": true,
+    "item": [
+      {
+        "tipo": "titulo",
+        "contenido": "Sistema de Dirección"
+      },
+      {
+        "tipo": "imagen",
+        "tamano": "100%",
+        "contenido": "assets/img/proy/direccion.png"
+      }
+    ]
+  },
+  {
+    "seccion": "5 subsistemas",
+    "menu": false,
+    "item": [
+      {
+        "tipo": "titulo",
+        "contenido": "Sistema de Producción"
+      },
+      {
+        "tipo": "imagen",
+        "tamano": "100%",
+        "contenido": "assets/img/proy/produccion.png"
+      }
+    ]
+  },
+  {
+    "seccion": "5 subsistemas",
+    "menu": false,
+    "item": [
+      {
+        "tipo": "titulo",
+        "contenido": "Sistema de Mantención"
+      },
+      {
+        "tipo": "imagen",
+        "tamano": "100%",
+        "contenido": "assets/img/proy/mantencion.png"
+      }
+    ]
+  },
+  {
+    "seccion": "5 subsistemas",
+    "menu": false,
+    "item": [
+      {
+        "tipo": "titulo",
+        "contenido": "Sistema de Apoyo"
+      },
+      {
+        "tipo": "imagen",
+        "tamano": "100%",
+        "contenido": "assets/img/proy/apoyo.png"
+      }
+    ]
+  },
+  {
+    "seccion": "5 subsistemas",
+    "menu": false,
+    "item": [
+      {
+        "tipo": "titulo",
+        "contenido": "Sistema de Adaptación"
+      },
+      {
+        "tipo": "imagen",
+        "tamano": "100%",
+        "contenido": "assets/img/proy/adaptacion.png"
+      }
+    ]
+  },
+  {
     "seccion": "Cadena de valor",
     "menu": true,
     "item": [
