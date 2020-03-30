@@ -1,56 +1,63 @@
 [
   {
     "fecha": "2019-09-02",
-    "que_aprendi": "cosas rechidas",
+    "que_aprendi": [
+      "Un sistema se define como un conjunto de elementos con atributos relacionados entre sí, a su vez relacionados con otros elementos.",
+      "Un buen producto no necesariamente es un buen proyecto",
+      "La justificacion responde : ¿ por que?",
+      "El problema ¿ Para que?.",
+      "El objetivo general es la meta a la que se desea llegar y los objetivos especificos son los pequeños escalones para alcanzar el objetivo general"
+    ],
     "consultas": [
       {
-        "nombre": "consulta 1",
+        "nombre": "ciclo básico del software",
         "url": ""
       },
       {
-        "nombre": "consulta 3",
+        "nombre": "Cap. 3 y 8 de Introducción a la teoría de sistemas. ¿Qué es/hace una empresa?",
+        "url": ""
+      },
+      {
+        "nombre": "que es y que hace una empresa",
         "url": ""
       }
     ],
     "videos": [
       {
-        "nombre": "video 1",
-        "url": ""
-      },
-      {
-        "nombre": "video 3",
+        "nombre": "Brigitte Baptiste - ¿Qué es la información?",
         "url": ""
       }
     ],
     "libros": [
       {
-        "nombre": "libro 1",
-        "url": ""
-      },
-      {
-        "nombre": "libro 5",
+        "nombre": "Anexo 5 - caso de política de negocio",
         "url": ""
       }
     ]
   },
   {
     "fecha": "2019-09-04",
-    "que_aprendi": "cosas rechidas v2",
+    "que_aprendi": [
+      "La empresa debe ser analizada como un sistema abierto de complejidad creciente.",
+      "Una empresa esta conformada internamente por 5 subsistemas: Dirección, Apoyo, Mantención, Adaptación y producción.",
+      "Todos tenemos talento, solo si sabemos decubrirlo.",
+      "No es fallar, en la ciencia no se considera un fracaso, estas descubriendo lo que no funciona, no se puede descubrir lo que si funciona hasta que explores muchas posibilidades de lo que no sale bien"
+    ],
     "consultas": [
       {
-        "nombre": "consulta 2",
+        "nombre": "Cómo evaluar las variables de entorno",
         "url": ""
       }
     ],
     "videos": [
       {
-        "nombre": "video 2",
+        "nombre": "DW - La globalización.",
         "url": ""
       }
     ],
     "libros": [
       {
-        "nombre": "video 4",
+        "nombre": "El arte de resolver problemas",
         "url": ""
       }
     ]
