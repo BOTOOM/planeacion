@@ -45,7 +45,11 @@
     ],
     "consultas": [
       {
-        "nombre": "Cómo evaluar las variables de entorno",
+        "nombre": "Cómo evaluar las variables de entorno.",
+        "url": ""
+      },
+      {
+        "nombre": "funcionamiento de primeras cremalleras,",
         "url": ""
       }
     ],
@@ -64,305 +68,121 @@
   },
   {
     "fecha": "2019-09-06",
-    "que_aprendi": "cosas rechidas v2",
+    "que_aprendi": [
+      "La ingenieria es resolverle problemas a los humanos",
+      "La globalización tiene varios idiomas: estética, deporte, música, religiones, política, tecnología, moda.",
+      "Las formas de manipulación arraigan en la población conocimiento falso y falta de criterio."
+    ],
     "consultas": [
       {
-        "nombre": "consulta 2",
+        "nombre": "cartas de Noam Chomsky.",
         "url": ""
       }
     ],
     "videos": [
       {
-        "nombre": "video 2",
+        "nombre": "Serie de History channel - los dictadores.",
         "url": ""
+      },
+      {
+        "nombre": "Serie de History channel - los dictadores.",
+        "url": "La biblia esa linda tontería - Colección Rius."
       }
     ],
     "libros": [
       {
-        "nombre": "video 4",
+        "nombre": "La rebelión de atlas",
         "url": ""
       }
     ]
   },
   {
     "fecha": "2019-09-09",
-    "que_aprendi": "cosas rechidas v2",
+    "que_aprendi": [
+      "Un buen cuidadano es un excelente ingeniero",
+      "Un sistema se encuentra en constante cambio ya que si no cambia su destino mas probable es la muerte."
+    ],
     "consultas": [
       {
-        "nombre": "consulta 2",
+        "nombre": "",
         "url": ""
       }
     ],
     "videos": [
       {
-        "nombre": "video 2",
+        "nombre": "DW. Video Secretos de la creatividad.",
         "url": ""
       }
     ],
     "libros": [
       {
-        "nombre": "video 4",
+        "nombre": "Puente al infinito",
         "url": ""
       }
     ]
   },
   {
     "fecha": "2019-09-11",
-    "que_aprendi": "cosas rechidas v2",
+    "que_aprendi": [
+      "La complejidad es una caracteristica de los sistemas dinamicos, la cual es suceptible a cambios en su funcionamiento, por ente esta afecta los sistemas a su alrededor"
+    ],
     "consultas": [
       {
-        "nombre": "consulta 2",
+        "nombre": "cuales son las caracteristicas de un gerente",
         "url": ""
       }
     ],
     "videos": [
       {
-        "nombre": "video 2",
+        "nombre": "Serie - the society",
         "url": ""
       }
     ],
     "libros": [
       {
-        "nombre": "video 4",
+        "nombre": "Sistemas Emergentes - Stiven Jhonson",
+        "url": ""
+      },
+      {
+        "nombre": "Las enseñanzas de don Juan.",
         "url": ""
       }
     ]
   },
   {
     "fecha": "2019-09-13",
-    "que_aprendi": "cosas rechidas v2",
+    "que_aprendi": ["Se tomó consciencia de cómo éticas en torno al “aprovechamiento” de oportunidades, generan un oportunismo y enajenación del sentido de propiedad por la nación, la naturaleza y así mismo la cultura,."],
     "consultas": [
       {
-        "nombre": "consulta 2",
+        "nombre": "que es transculturización.",
         "url": ""
       }
     ],
     "videos": [
       {
-        "nombre": "video 2",
+        "nombre": "DW - Monsanto,",
         "url": ""
+      },
+      {
+        "nombre" : "la musica es una droga"
       }
     ],
     "libros": [
       {
-        "nombre": "video 4",
-        "url": ""
-      }
-    ]
-  },
-  {
-    "fecha": "2019-09-20",
-    "que_aprendi": "cosas rechidas v2",
-    "consultas": [
-      {
-        "nombre": "consulta 2",
-        "url": ""
-      }
-    ],
-    "videos": [
-      {
-        "nombre": "video 2",
-        "url": ""
-      }
-    ],
-    "libros": [
-      {
-        "nombre": "video 4",
-        "url": ""
-      }
-    ]
-  },
-  {
-    "fecha": "2019-09-23",
-    "que_aprendi": "cosas rechidas v2",
-    "consultas": [
-      {
-        "nombre": "consulta 2",
-        "url": ""
-      }
-    ],
-    "videos": [
-      {
-        "nombre": "video 2",
-        "url": ""
-      }
-    ],
-    "libros": [
-      {
-        "nombre": "video 4",
-        "url": ""
-      }
-    ]
-  },
-  {
-    "fecha": "2019-10-09",
-    "que_aprendi": "cosas rechidas v2",
-    "consultas": [
-      {
-        "nombre": "consulta 2",
-        "url": ""
-      }
-    ],
-    "videos": [
-      {
-        "nombre": "video 2",
-        "url": ""
-      }
-    ],
-    "libros": [
-      {
-        "nombre": "video 4",
-        "url": ""
-      }
-    ]
-  },
-  {
-    "fecha": "2019-10-21",
-    "que_aprendi": "cosas rechidas v2",
-    "consultas": [
-      {
-        "nombre": "consulta 2",
-        "url": ""
-      }
-    ],
-    "videos": [
-      {
-        "nombre": "video 2",
-        "url": ""
-      }
-    ],
-    "libros": [
-      {
-        "nombre": "video 4",
-        "url": ""
-      }
-    ]
-  },
-  {
-    "fecha": "2020-02-10",
-    "que_aprendi": "cosas rechidas v2",
-    "consultas": [
-      {
-        "nombre": "consulta 2",
-        "url": ""
-      }
-    ],
-    "videos": [
-      {
-        "nombre": "video 2",
-        "url": ""
-      }
-    ],
-    "libros": [
-      {
-        "nombre": "video 4",
-        "url": ""
-      }
-    ]
-  },
-  {
-    "fecha": "2020-02-12",
-    "que_aprendi": "cosas rechidas v2",
-    "consultas": [
-      {
-        "nombre": "consulta 2",
-        "url": ""
-      }
-    ],
-    "videos": [
-      {
-        "nombre": "video 2",
-        "url": ""
-      }
-    ],
-    "libros": [
-      {
-        "nombre": "video 4",
-        "url": ""
-      }
-    ]
-  },
-  {
-    "fecha": "2020-02-14",
-    "que_aprendi": "cosas rechidas v2",
-    "consultas": [
-      {
-        "nombre": "consulta 2",
-        "url": ""
-      }
-    ],
-    "videos": [
-      {
-        "nombre": "video 2",
-        "url": ""
-      }
-    ],
-    "libros": [
-      {
-        "nombre": "video 4",
-        "url": ""
-      }
-    ]
-  },
-  {
-    "fecha": "2020-02-17",
-    "que_aprendi": "cosas rechidas v2",
-    "consultas": [
-      {
-        "nombre": "consulta 2",
-        "url": ""
-      }
-    ],
-    "videos": [
-      {
-        "nombre": "video 2",
-        "url": ""
-      }
-    ],
-    "libros": [
-      {
-        "nombre": "video 4",
-        "url": ""
-      }
-    ]
-  },
-  {
-    "fecha": "2020-02-19",
-    "que_aprendi": "cosas rechidas v2",
-    "consultas": [
-      {
-        "nombre": "consulta 2",
-        "url": ""
-      }
-    ],
-    "videos": [
-      {
-        "nombre": "video 2",
-        "url": ""
-      }
-    ],
-    "libros": [
-      {
-        "nombre": "video 4",
+        "nombre": "Arca de Noe",
         "url": ""
       }
     ]
   },
   {
     "fecha": "2020-02-21",
-    "que_aprendi": "Principalmente aprendi sobre la felicidad. Aquellos momentos felices pueden superar a quellos momentos que nos abruman.\n\n\nHe de destacar una frase de la profesora : << De mis constantes retos han dependido mos constantes exitos y mis constantes fracasos>>",
+    "que_aprendi": [
+      "Principalmente aprendi sobre la felicidad. Aquellos momentos felices pueden superar a quellos momentos que nos abruman.\n\n\nHe de destacar una frase de la profesora : << De mis constantes retos han dependido mos constantes exitos y mis constantes fracasos>>"
+    ],
     "consultas": [
       {
         "nombre": "Personajes de Mafalda",
         "url": "https://www.speakinglatino.com/personajes-de-mafalda/"
-      },
-      {
-        "nombre": "",
-        "url": ""
-      },
-      {
-        "nombre": "",
-        "url": ""
       }
     ],
     "videos": [
@@ -383,14 +203,6 @@
       {
         "nombre": "El hombre en busca de sentido",
         "url": "https://www.google.com/search?client=firefox-b-d&channel=crow2&ei=WUFTXuXZI8_n_QaD4oHYAw&q=el+hombre+en+busca+de+sentido+pdf&oq=el+hombre+en+busca+de+sentido+pdf&gs_l=psy-ab.3...28528.31165..31371...2.2..0.174.951.0j6......0....1..gws-wiz.......0i71j0j0i22i30j0i22i30i19.pn9ptPYPnl8&ved=0ahUKEwil6qT_nennAhXPc98KHQNxADsQ4dUDCAo&uact=5"
-      },
-      {
-        "nombre": "",
-        "url": ""
-      },
-      {
-        "nombre": "",
-        "url": ""
       }
     ]
   }
