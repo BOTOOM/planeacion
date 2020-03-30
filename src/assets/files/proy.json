@@ -417,5 +417,60 @@
         "contenido": "assets/img/proy/POAM6.png"
       }
     ]
+  },
+  {
+    "seccion": "POAM",
+    "menu": false,
+    "item": [
+      {
+        "tipo": "imagen",
+        "tamano": "70%",
+        "contenido": "assets/img/proy/OportunidadesAmenazas.png"
+      }
+    ]
+  },
+  {
+    "seccion": "PCI",
+    "menu": true,
+    "item": [
+      {
+        "tipo": "imagen",
+        "tamano": "80%",
+        "contenido": "assets/img/proy/PCI1.png"
+      }
+    ]
+  },
+  {
+    "seccion": "PCI",
+    "menu": false,
+    "item": [
+      {
+        "tipo": "imagen",
+        "tamano": "80%",
+        "contenido": "assets/img/proy/PCI2.png"
+      }
+    ]
+  },
+  {
+    "seccion": "PCI",
+    "menu": false,
+    "item": [
+      {
+        "tipo": "imagen",
+        "tamano": "80%",
+        "contenido": "assets/img/proy/PCI3.png"
+      }
+    ]
+  },
+  {
+    "seccion": "PCI",
+    "menu": false,
+    "item": [
+      {
+        "tipo": "imagen",
+        "tamano": "70%",
+        "contenido": "assets/img/proy/FortalezasDebilidades.png"
+      }
+    ]
   }
 ]
