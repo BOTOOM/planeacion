@@ -156,6 +156,21 @@
     ]
   },
   {
+    "seccion": "Estructura orgánica",
+    "menu": false,
+    "item": [
+      {
+        "tipo": "titulo",
+        "contenido": "Estructura orgánica Propuesta"
+      },
+      {
+        "tipo": "imagen",
+        "tamano": "80%",
+        "contenido": "assets/img/proy/organico.png"
+      }
+    ]
+  },
+  {
     "seccion": "5 subsistemas",
     "menu": true,
     "item": [
@@ -481,6 +496,16 @@
         "tipo": "imagen",
         "tamano": "70%",
         "contenido": "assets/img/proy/posicionamiento.png"
+      }
+    ]
+  },
+  {
+    "seccion": "Posicionamiento Estratégico",
+    "menu": false,
+    "item": [
+      {
+        "tipo": "parrafo",
+        "contenido": "BELATRIX SOFTWARE cuenta con una amplia experiencia de más de 20 años,prestando servicios de soluciones de software a empresas, entre los cuales se encuentra el desarrollo de software , gestión de servicios en la nube, la empresa actualmente se encuentra en el primer cuadrante , el estar en este cuadrante indica que la empresa está bien en su interior y su exterior. En estos momentos la empresa es una empresa fuerte , para mantenerse allí debe de mover su cadena de valor de tal manera que le permita fortalecerse aún más, uno de estos ejemplos es la alianza que realizó en 2019 con la empresa de desarrollo de software GLOBANT , así mismo la empresa debe de seguir moviendo su cadena de valor con el desarrollo de nuevos productos los cuales pueda ofrecer al mercado."
       }
     ]
   }
