@@ -1,4 +1,4 @@
-
+<!-- 
 <mat-accordion>
     <mat-expansion-panel *ngFor="let clase of DatosClases; let i=index" 
                          (opened)="panelOpenState = true"
@@ -34,4 +34,80 @@
       </div>
     </mat-expansion-panel>
   </mat-accordion>
-  
+   -->
+
+
+
+   <div id="wrapper" *ngFor="let clase of DatosClases; let i=index">
+    <div id="container">
+
+        <section class="open-book">
+            <header>
+                <h1>Clase N° {{ i + 1 }}</h1>
+                <h6>Fecha: {{ clase['fecha'] | date }}</h6>
+            </header>
+            <article>
+                <h2 class="chapter-title"></h2>
+
+
+                <p *ngFor="let cosa of clase['que_aprendi']">
+                  {{cosa}}
+                </p>
+
+
+                <div>
+                  <dl>
+                    <dt><strong>Videos</strong></dt>
+                    <!-- <dd> -->
+                        <!-- <em>noun</em><br> -->
+                        <!-- an object or feature that imitates the design of a similar artifact made from another material. -->
+                        <ul>
+                          <li *ngFor="let video of clase['videos']"> {{ video['nombre']  }} </li>
+                      </ul>
+                    <!-- </dd> -->
+                </dl>
+                </div>
+
+                <div>
+                  <dl>
+                    <dt><strong>Libros</strong></dt>
+                    <!-- <dd> -->
+                        <!-- <em>noun</em><br> -->
+                        <!-- an object or feature that imitates the design of a similar artifact made from another material. -->
+                        <ul>
+                          <li *ngFor="let libro of clase['libros']"> {{ libro['nombre']  }} </li>
+                      </ul>
+                    <!-- </dd> -->
+                </dl>
+                </div>
+
+                <div>
+                  <dl>
+                    <dt><strong>Consultas</strong></dt>
+                    <!-- <dd> -->
+                        <!-- <em>noun</em><br> -->
+                        <!-- an object or feature that imitates the design of a similar artifact made from another material. -->
+                        <ul>
+                          <li *ngFor="let consulta of clase['consultas']"> {{ consulta['nombre']  }} </li>
+                      </ul>
+                    <!-- </dd> -->
+                </dl>
+                </div>
+                
+                
+                
+            </article>
+            <footer>
+                <ol id="page-numbers">
+                    <!-- <li>1</li>
+                    <li>2</li> -->
+                </ol>
+            </footer>
+        </section>
+      
+      
+      
+
+    </div>
+</div>
+
