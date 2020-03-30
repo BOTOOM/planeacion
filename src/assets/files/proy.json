@@ -142,6 +142,20 @@
     ]
   },
   {
+    "seccion": "Estructura orgánica",
+    "menu": true,
+    "item": [
+      {
+        "tipo": "titulo",
+        "contenido": "Estructura orgánica Actual"
+      },
+      {
+        "tipo": "parrafo",
+        "contenido": "En la información proporcionada y en la búsqueda sobre la información a la que se puede acceder sobre la empresa no se ha encontrado una estructura orgánica"
+      }
+    ]
+  },
+  {
     "seccion": "5 subsistemas",
     "menu": true,
     "item": [
@@ -224,6 +238,96 @@
         "tipo": "imagen",
         "tamano": "70%",
         "contenido": "assets/img/proy/cadena_valor.png"
+      }
+    ]
+  },
+  {
+    "seccion": "Encueatas",
+    "menu": true,
+    "item": [
+      {
+        "tipo": "titulo",
+        "contenido": "Perguntas a Estrategicos"
+      },
+      {
+        "tipo": "imagen",
+        "tamano": "100%",
+        "contenido": "assets/img/proy/estrategicos1.png"
+      }
+    ]
+  },
+  {
+    "seccion": "Encueatas",
+    "menu": false,
+    "item": [
+      {
+        "tipo": "titulo",
+        "contenido": "Perguntas a Estrategicos"
+      },
+      {
+        "tipo": "imagen",
+        "tamano": "100%",
+        "contenido": "assets/img/proy/estrategicos3.png"
+      }
+    ]
+  },
+  {
+    "seccion": "Encueatas",
+    "menu": false,
+    "item": [
+      {
+        "tipo": "titulo",
+        "contenido": "Perguntas a Estrategicos"
+      },
+      {
+        "tipo": "imagen",
+        "tamano": "100%",
+        "contenido": "assets/img/proy/estrategicos3.png"
+      }
+    ]
+  },
+  {
+    "seccion": "Encueatas",
+    "menu": false,
+    "item": [
+      {
+        "tipo": "titulo",
+        "contenido": "Perguntas a Tacticos"
+      },
+      {
+        "tipo": "imagen",
+        "tamano": "100%",
+        "contenido": "assets/img/proy/tacticos1.png"
+      }
+    ]
+  },
+  {
+    "seccion": "Encueatas",
+    "menu": false,
+    "item": [
+      {
+        "tipo": "titulo",
+        "contenido": "Perguntas a Tacticos"
+      },
+      {
+        "tipo": "imagen",
+        "tamano": "100%",
+        "contenido": "assets/img/proy/tacticos2.png"
+      }
+    ]
+  },
+  {
+    "seccion": "Encueatas",
+    "menu": false,
+    "item": [
+      {
+        "tipo": "titulo",
+        "contenido": "Perguntas a Tacticos"
+      },
+      {
+        "tipo": "imagen",
+        "tamano": "100%",
+        "contenido": "assets/img/proy/tacticos3.png"
       }
     ]
   },
