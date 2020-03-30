@@ -472,5 +472,16 @@
         "contenido": "assets/img/proy/FortalezasDebilidades.png"
       }
     ]
+  },
+  {
+    "seccion": "Posicionamiento Estratégico",
+    "menu": true,
+    "item": [
+      {
+        "tipo": "imagen",
+        "tamano": "70%",
+        "contenido": "assets/img/proy/posicionamiento.png"
+      }
+    ]
   }
 ]
