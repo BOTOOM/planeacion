@@ -226,5 +226,47 @@
         "contenido": "assets/img/proy/cadena_valor.png"
       }
     ]
+  },
+  {
+    "seccion": "POAM",
+    "menu": true,
+    "item": [
+      {
+        "tipo": "imagen",
+        "tamano": "100%",
+        "contenido": "assets/img/proy/POAM1.png"
+      },
+      {
+        "tipo": "imagen",
+        "tamano": "100%",
+        "contenido": "assets/img/proy/POAM2.png"
+      },
+      {
+        "tipo": "imagen",
+        "tamano": "100%",
+        "contenido": "assets/img/proy/POAM3.png"
+      }
+    ]
+  },
+  {
+    "seccion": "POAM",
+    "menu": false,
+    "item": [
+      {
+        "tipo": "imagen",
+        "tamano": "100%",
+        "contenido": "assets/img/proy/POAM4.png"
+      },
+      {
+        "tipo": "imagen",
+        "tamano": "100%",
+        "contenido": "assets/img/proy/POAM5.png"
+      },
+      {
+        "tipo": "imagen",
+        "tamano": "100%",
+        "contenido": "assets/img/proy/POAM6.png"
+      }
+    ]
   }
 ]
