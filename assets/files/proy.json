@@ -142,6 +142,110 @@
     ]
   },
   {
+    "seccion": "Estructura orgánica",
+    "menu": true,
+    "item": [
+      {
+        "tipo": "titulo",
+        "contenido": "Estructura orgánica Actual"
+      },
+      {
+        "tipo": "parrafo",
+        "contenido": "En la información proporcionada y en la búsqueda sobre la información a la que se puede acceder sobre la empresa no se ha encontrado una estructura orgánica"
+      }
+    ]
+  },
+  {
+    "seccion": "Estructura orgánica",
+    "menu": false,
+    "item": [
+      {
+        "tipo": "titulo",
+        "contenido": "Estructura orgánica Propuesta"
+      },
+      {
+        "tipo": "imagen",
+        "tamano": "80%",
+        "contenido": "assets/img/proy/organico.png"
+      }
+    ]
+  },
+  {
+    "seccion": "5 subsistemas",
+    "menu": true,
+    "item": [
+      {
+        "tipo": "titulo",
+        "contenido": "Sistema de Dirección"
+      },
+      {
+        "tipo": "imagen",
+        "tamano": "100%",
+        "contenido": "assets/img/proy/direccion.png"
+      }
+    ]
+  },
+  {
+    "seccion": "5 subsistemas",
+    "menu": false,
+    "item": [
+      {
+        "tipo": "titulo",
+        "contenido": "Sistema de Producción"
+      },
+      {
+        "tipo": "imagen",
+        "tamano": "100%",
+        "contenido": "assets/img/proy/produccion.png"
+      }
+    ]
+  },
+  {
+    "seccion": "5 subsistemas",
+    "menu": false,
+    "item": [
+      {
+        "tipo": "titulo",
+        "contenido": "Sistema de Mantención"
+      },
+      {
+        "tipo": "imagen",
+        "tamano": "100%",
+        "contenido": "assets/img/proy/mantencion.png"
+      }
+    ]
+  },
+  {
+    "seccion": "5 subsistemas",
+    "menu": false,
+    "item": [
+      {
+        "tipo": "titulo",
+        "contenido": "Sistema de Apoyo"
+      },
+      {
+        "tipo": "imagen",
+        "tamano": "100%",
+        "contenido": "assets/img/proy/apoyo.png"
+      }
+    ]
+  },
+  {
+    "seccion": "5 subsistemas",
+    "menu": false,
+    "item": [
+      {
+        "tipo": "titulo",
+        "contenido": "Sistema de Adaptación"
+      },
+      {
+        "tipo": "imagen",
+        "tamano": "100%",
+        "contenido": "assets/img/proy/adaptacion.png"
+      }
+    ]
+  },
+  {
     "seccion": "Cadena de valor",
     "menu": true,
     "item": [
@@ -149,6 +253,270 @@
         "tipo": "imagen",
         "tamano": "70%",
         "contenido": "assets/img/proy/cadena_valor.png"
+      }
+    ]
+  },
+  {
+    "seccion": "Encueatas",
+    "menu": true,
+    "item": [
+      {
+        "tipo": "titulo",
+        "contenido": "Perguntas a Estrategicos"
+      },
+      {
+        "tipo": "imagen",
+        "tamano": "100%",
+        "contenido": "assets/img/proy/estrategicos1.png"
+      }
+    ]
+  },
+  {
+    "seccion": "Encueatas",
+    "menu": false,
+    "item": [
+      {
+        "tipo": "titulo",
+        "contenido": "Perguntas a Estrategicos"
+      },
+      {
+        "tipo": "imagen",
+        "tamano": "100%",
+        "contenido": "assets/img/proy/estrategicos3.png"
+      }
+    ]
+  },
+  {
+    "seccion": "Encueatas",
+    "menu": false,
+    "item": [
+      {
+        "tipo": "titulo",
+        "contenido": "Perguntas a Estrategicos"
+      },
+      {
+        "tipo": "imagen",
+        "tamano": "100%",
+        "contenido": "assets/img/proy/estrategicos3.png"
+      }
+    ]
+  },
+  {
+    "seccion": "Encueatas",
+    "menu": false,
+    "item": [
+      {
+        "tipo": "titulo",
+        "contenido": "Perguntas a Tacticos"
+      },
+      {
+        "tipo": "imagen",
+        "tamano": "100%",
+        "contenido": "assets/img/proy/tacticos1.png"
+      }
+    ]
+  },
+  {
+    "seccion": "Encueatas",
+    "menu": false,
+    "item": [
+      {
+        "tipo": "titulo",
+        "contenido": "Perguntas a Tacticos"
+      },
+      {
+        "tipo": "imagen",
+        "tamano": "100%",
+        "contenido": "assets/img/proy/tacticos2.png"
+      }
+    ]
+  },
+  {
+    "seccion": "Encueatas",
+    "menu": false,
+    "item": [
+      {
+        "tipo": "titulo",
+        "contenido": "Perguntas a Tacticos"
+      },
+      {
+        "tipo": "imagen",
+        "tamano": "100%",
+        "contenido": "assets/img/proy/tacticos3.png"
+      }
+    ]
+  },
+  {
+    "seccion": "Encueatas",
+    "menu": false,
+    "item": [
+      {
+        "tipo": "titulo",
+        "contenido": "Perguntas a Operativos"
+      },
+      {
+        "tipo": "imagen",
+        "tamano": "100%",
+        "contenido": "assets/img/proy/operativos1.png"
+      }
+    ]
+  },
+  {
+    "seccion": "Encueatas",
+    "menu": false,
+    "item": [
+      {
+        "tipo": "titulo",
+        "contenido": "Perguntas a Operativos"
+      },
+      {
+        "tipo": "imagen",
+        "tamano": "100%",
+        "contenido": "assets/img/proy/operativos2.png"
+      }
+    ]
+  },
+  {
+    "seccion": "Encueatas",
+    "menu": false,
+    "item": [
+      {
+        "tipo": "titulo",
+        "contenido": "Perguntas a Operativos"
+      },
+      {
+        "tipo": "imagen",
+        "tamano": "100%",
+        "contenido": "assets/img/proy/operativos3.png"
+      }
+    ]
+  },
+  {
+    "seccion": "POAM",
+    "menu": true,
+    "item": [
+      {
+        "tipo": "imagen",
+        "tamano": "100%",
+        "contenido": "assets/img/proy/POAM1.png"
+      },
+      {
+        "tipo": "imagen",
+        "tamano": "100%",
+        "contenido": "assets/img/proy/POAM2.png"
+      },
+      {
+        "tipo": "imagen",
+        "tamano": "100%",
+        "contenido": "assets/img/proy/POAM3.png"
+      }
+    ]
+  },
+  {
+    "seccion": "POAM",
+    "menu": false,
+    "item": [
+      {
+        "tipo": "imagen",
+        "tamano": "100%",
+        "contenido": "assets/img/proy/POAM4.png"
+      },
+      {
+        "tipo": "imagen",
+        "tamano": "100%",
+        "contenido": "assets/img/proy/POAM5.png"
+      },
+      {
+        "tipo": "imagen",
+        "tamano": "100%",
+        "contenido": "assets/img/proy/POAM6.png"
+      }
+    ]
+  },
+  {
+    "seccion": "POAM",
+    "menu": false,
+    "item": [
+      {
+        "tipo": "imagen",
+        "tamano": "70%",
+        "contenido": "assets/img/proy/OportunidadesAmenazas.png"
+      }
+    ]
+  },
+  {
+    "seccion": "PCI",
+    "menu": true,
+    "item": [
+      {
+        "tipo": "imagen",
+        "tamano": "80%",
+        "contenido": "assets/img/proy/PCI1.png"
+      }
+    ]
+  },
+  {
+    "seccion": "PCI",
+    "menu": false,
+    "item": [
+      {
+        "tipo": "imagen",
+        "tamano": "80%",
+        "contenido": "assets/img/proy/PCI2.png"
+      }
+    ]
+  },
+  {
+    "seccion": "PCI",
+    "menu": false,
+    "item": [
+      {
+        "tipo": "imagen",
+        "tamano": "80%",
+        "contenido": "assets/img/proy/PCI3.png"
+      }
+    ]
+  },
+  {
+    "seccion": "PCI",
+    "menu": false,
+    "item": [
+      {
+        "tipo": "imagen",
+        "tamano": "70%",
+        "contenido": "assets/img/proy/FortalezasDebilidades.png"
+      }
+    ]
+  },
+  {
+    "seccion": "Posicionamiento Estratégico",
+    "menu": true,
+    "item": [
+      {
+        "tipo": "imagen",
+        "tamano": "70%",
+        "contenido": "assets/img/proy/posicionamiento.png"
+      }
+    ]
+  },
+  {
+    "seccion": "Posicionamiento Estratégico",
+    "menu": false,
+    "item": [
+      {
+        "tipo": "parrafo",
+        "contenido": "BELATRIX SOFTWARE cuenta con una amplia experiencia de más de 20 años,prestando servicios de soluciones de software a empresas, entre los cuales se encuentra el desarrollo de software , gestión de servicios en la nube, la empresa actualmente se encuentra en el primer cuadrante , el estar en este cuadrante indica que la empresa está bien en su interior y su exterior. En estos momentos la empresa es una empresa fuerte , para mantenerse allí debe de mover su cadena de valor de tal manera que le permita fortalecerse aún más, uno de estos ejemplos es la alianza que realizó en 2019 con la empresa de desarrollo de software GLOBANT , así mismo la empresa debe de seguir moviendo su cadena de valor con el desarrollo de nuevos productos los cuales pueda ofrecer al mercado."
+      }
+    ]
+  },
+  {
+    "seccion": "DOFA",
+    "menu": true,
+    "item": [
+      {
+        "tipo": "imagen",
+        "tamano": "70%",
+        "contenido": "assets/img/proy/MDofa.png"
       }
     ]
   }
