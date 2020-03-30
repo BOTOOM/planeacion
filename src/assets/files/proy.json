@@ -332,6 +332,51 @@
     ]
   },
   {
+    "seccion": "Encueatas",
+    "menu": false,
+    "item": [
+      {
+        "tipo": "titulo",
+        "contenido": "Perguntas a Operativos"
+      },
+      {
+        "tipo": "imagen",
+        "tamano": "100%",
+        "contenido": "assets/img/proy/operativos1.png"
+      }
+    ]
+  },
+  {
+    "seccion": "Encueatas",
+    "menu": false,
+    "item": [
+      {
+        "tipo": "titulo",
+        "contenido": "Perguntas a Operativos"
+      },
+      {
+        "tipo": "imagen",
+        "tamano": "100%",
+        "contenido": "assets/img/proy/operativos2.png"
+      }
+    ]
+  },
+  {
+    "seccion": "Encueatas",
+    "menu": false,
+    "item": [
+      {
+        "tipo": "titulo",
+        "contenido": "Perguntas a Operativos"
+      },
+      {
+        "tipo": "imagen",
+        "tamano": "100%",
+        "contenido": "assets/img/proy/operativos3.png"
+      }
+    ]
+  },
+  {
     "seccion": "POAM",
     "menu": true,
     "item": [
